@@ -93,7 +93,7 @@ export default function Themes() {
           challenges through technology and innovation.
         </p>
 
-        <div className="flex justify-center items-center mb-8 space-x-4">
+        <div className="flex flex-col md:flex-row justify-center gap-5 items-center mb-8 md:space-x-4">
           <button
             onClick={handlePrev}
             className="bg-gradient-to-r from-indigo-600 to-indigo-800 text-white px-6 py-3 rounded-full transform transition duration-300 hover:scale-110"

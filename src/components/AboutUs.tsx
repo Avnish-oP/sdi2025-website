@@ -8,7 +8,7 @@ export default function AboutUs() {
               <img
                 src="/images/aboutUs.png" // Replace with your illustration path
                 alt="Smart Delhi Ideathon"
-                className="w-full max-w-md mx-auto md:max-w-none md:mx-0 transform hover:scale-105 transition duration-300"
+                className="w-full max-w-md mx-auto md:max-w-none md:mx-0 transform hover:scale-[102%] transition duration-300 rounded-lg"
               />
               {/* Decorative Circle */}
               <div className="absolute -top-10 -left-10 w-32 h-32 bg-indigo-500 rounded-full blur-xl opacity-30 pointer-events-none"></div>
@@ -37,7 +37,7 @@ export default function AboutUs() {
                 <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
                   Learn More
                 </button>
-                <button className="px-6 py-3 bg-gray-300 text-gray-800 font-bold rounded-lg shadow-md hover:bg-gray-400 transition">
+                <button className="px-6 py-3 bg-white text-gray-800 font-bold rounded-lg shadow-md hover:bg-gray-300 transition">
                     Register Now
                 </button>
               </div>

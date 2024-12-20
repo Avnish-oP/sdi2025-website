@@ -3,6 +3,7 @@ import HeroSection from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import { HackathonTimeline } from "@/components/Schedule";
 import  Themes  from "@/components/Themes";
+import OrganizingCommittee from "@/components/Committee";
 import Image from "next/image";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
     <AboutHackathon />
     <Themes />
     <HackathonTimeline />
+    <OrganizingCommittee />
     </>
   );
 }
