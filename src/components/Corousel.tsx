@@ -1,18 +1,21 @@
-"use client"
+"use client";
 import { useState, useEffect } from "react";
 
 const carouselItems = [
   {
-    image: "/images/event1.jpg", // Replace with actual image URLs
-    caption: "Innovate for Smart Delhi",
+    image: "/images/event1.png",
+    title: "Innovate for Smart Delhi",
+    description: "Be the catalyst for change with your ideas.",
   },
   {
-    image: "/images/event2.jpg",
-    caption: "Solve Real-World Problems",
+    image: "/images/event2.png",
+    title: "Solve Real-World Problems",
+    description: "Address urban challenges with creativity and tech.",
   },
   {
-    image: "/images/event3.jpg",
-    caption: "Showcase Your Creativity",
+    image: "/images/event3.png",
+    title: "Showcase Your Creativity",
+    description: "Transform ideas into impactful solutions.",
   },
 ];
 
@@ -24,44 +27,55 @@ export default function HeroCarousel() {
       setCurrentIndex((prevIndex) =>
         prevIndex === carouselItems.length - 1 ? 0 : prevIndex + 1
       );
-    }, 5000); // Change slides every 5 seconds
+    }, 5000); // Slide changes every 5 seconds
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="relative w-full md:w-2/3 lg:w-1/2 mx-auto">
-      {/* Carousel Content */}
+    <div className="relative w-full h-96 md:h-[20rem] lg:h-[24rem] flex items-center justify-center overflow-hidden rounded-xl shadow-lg">
+      {/* Background Images with Parallax Effect */}
       {carouselItems.map((item, index) => (
         <div
           key={index}
-          className={`absolute inset-0 transition-opacity duration-1000 ${
-            index === currentIndex ? "opacity-100 z-10" : "opacity-0 z-0"
+          className={`absolute inset-0 transition-transform duration-700 ease-in-out ${
+            index === currentIndex
+              ? "translate-x-0 z-10 opacity-100"
+              : "translate-x-full z-0 opacity-0"
           }`}
-        >
-          <img
-            src={item.image}
-            alt={item.caption}
-            className="w-full h-64 md:h-80 object-cover rounded-lg shadow-lg"
-          />
-          <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black via-transparent to-transparent p-4">
-            <p className="text-white text-xl font-semibold">{item.caption}</p>
-          </div>
-        </div>
+          style={{
+            backgroundImage: `url(${item.image})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        />
       ))}
 
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-t from-gray-900/70 via-gray-900/40 to-transparent z-20"></div>
+
+      {/* Slide Content */}
+      <div className="relative top-1/4 z-30 w-3/4 text-center text-white">
+        <h2 className="text-2xl md:text-4xl font-bold mb-4">
+          {carouselItems[currentIndex].title}
+        </h2>
+        <p className="text-sm md:text-lg mb-6">
+          {carouselItems[currentIndex].description}
+        </p>
+      </div>
+
       {/* Navigation Buttons */}
-      <div className="absolute top-1/2 transform -translate-y-1/2 flex justify-between w-full px-4">
+      <div className="absolute inset-y-0 left-4 flex items-center z-40">
         <button
           onClick={() =>
             setCurrentIndex(
               currentIndex === 0 ? carouselItems.length - 1 : currentIndex - 1
             )
           }
-          className="p-2 bg-white/70 rounded-full shadow-md hover:bg-white transition"
+          className="p-2 bg-white/70 rounded-full shadow-lg hover:bg-white transition"
         >
           <svg
-            className="w-5 h-5 text-gray-800"
             xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5 text-gray-800"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -74,17 +88,19 @@ export default function HeroCarousel() {
             />
           </svg>
         </button>
+      </div>
+      <div className="absolute inset-y-0 right-4 flex items-center z-40">
         <button
           onClick={() =>
             setCurrentIndex(
               currentIndex === carouselItems.length - 1 ? 0 : currentIndex + 1
             )
           }
-          className="p-2 bg-white/70 rounded-full shadow-md hover:bg-white transition"
+          className="p-2 bg-white/70 rounded-full shadow-lg hover:bg-white transition"
         >
           <svg
-            className="w-5 h-5 text-gray-800"
             xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5 text-gray-800"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -100,7 +116,7 @@ export default function HeroCarousel() {
       </div>
 
       {/* Dots Navigation */}
-      <div className="flex justify-center space-x-2 mt-4">
+      <div className="absolute bottom-4 flex justify-center space-x-2 z-40">
         {carouselItems.map((_, index) => (
           <button
             key={index}

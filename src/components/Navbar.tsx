@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md fixed w-full z-10 transition-all duration-300">
+    <nav className="bg-white shadow-md fixed w-full z-30 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
@@ -15,7 +15,7 @@ export default function Navbar() {
               href="#home"
               className="text-2xl font-extrabold text-indigo-600 hover:text-indigo-800 transition duration-300"
             >
-              SmartDelhi
+              Logo
             </Link>
           </div>
 
@@ -71,15 +71,15 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden mt-2">
+          <div className="md:hidden mt- flex flex-col gap-2 space-y-4 pb-10">
             {["Home", "About", "Problem Statements", "FAQ", "Contact Us"].map(
               (item) => (
                 <Link
                   key={item}
                   href={`#${item.toLowerCase().replace(" ", "-")}`}
-                  className="block text-gray-700 hover:text-indigo-600 hover:bg-gray-100 px-4 py-2 rounded transition duration-200"
+                  className=" text-gray-700 hover:text-indigo-600 hover:bg-gray-100 px-4 py-2 rounded transition duration-200"
                 >
-                 <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-indigo-600 hover-glow transition-all duration-300 group-hover:w-full">{item}</span> 
+                 <span className="absolute h-[2px] text-nowrap w-0 bg-indigo-600 hover-glow transition-all duration-300 group-hover:w-full">{item}</span> 
                 </Link>
               )
             )}

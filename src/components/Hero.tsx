@@ -3,54 +3,64 @@ import HeroCarousel from "./Corousel"; // Import the Carousel Component
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex justify-center items-center bg-gradient-to-r from-gray-50 to-gray-200 py-16 md:py-24 overflow-hidden">
-      {/* Background Elements */}
-      <div className="absolute inset-0 -z-0">
-        {/* Gradient Blobs */}
-        <div className="absolute top-10 left-10 w-96 h-96 bg-indigo-300 rounded-full blur-3xl opacity-30"></div>
-        <div className="absolute bottom-10 right-10 w-72 h-72 bg-pink-300 rounded-full blur-2xl opacity-30"></div>
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: `url('/images/hero.png')`, // Replace with your image path
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          filter: "blur(2px) brightness(0.8)", // Apply blur and brightness here
+        }}
+      ></div>
 
-        {/* SVG Lines */}
+      {/* Background Overlay */}
+      <div className="absolute inset-0 bg-black opacity-30 z-0"></div>
+
+      {/* Background Elements */}
+      <div className="absolute inset-0 z-10 pointer-events-none">
         <svg
-          className="absolute top-20 left-32 w-48 h-auto text-indigo-500 opacity-30"
+          className="absolute top-1/2 left-10 w-40 h-40 text-gray-200"
           xmlns="http://www.w3.org/2000/svg"
-          fill="none"
           viewBox="0 0 100 100"
-          stroke="currentColor"
+          fill="none"
+        >
+          <circle cx="50" cy="50" r="48" stroke="currentColor" strokeWidth="1" />
+        </svg>
+        <svg
+          className="absolute bottom-10 right-10 w-56 h-56 text-gray-300"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 100"
+          fill="none"
         >
           <path
-            strokeWidth="0.5"
-            d="M10 10 L90 10 M10 20 L90 20 M10 30 L90 30 M10 40 L90 40"
+            d="M10 10 L90 10 L90 90 L10 90 Z"
+            stroke="currentColor"
+            strokeWidth="1"
           />
         </svg>
         <svg
-          className="absolute bottom-20 right-32 w-64 h-auto text-pink-500 opacity-30"
+          className="absolute top-1/2 right-20 w-24 h-24 text-gray-100"
           xmlns="http://www.w3.org/2000/svg"
-          fill="none"
           viewBox="0 0 100 100"
-          stroke="currentColor"
+          fill="none"
         >
-          <path
-            strokeWidth="0.5"
-            d="M10 10 L90 10 Q100 50 10 90"
+          <polygon
+            points="50,10 90,90 10,90"
+            stroke="currentColor"
+            strokeWidth="1"
           />
         </svg>
       </div>
 
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4 lg:px-8">
+      <div className="container z-20 mt-10 mx-auto flex flex-col md:flex-row gap-8 items-center justify-between px-4 lg:px-8">
         {/* Right Section: Event Info */}
         <div className="w-full md:w-1/2 text-center md:text-left">
-          <div className="mb-4">
-            <img
-              src="/images/sponsor-logo.png" // Replace with your sponsor logo
-              alt="Sponsor Logo"
-              className="mx-auto md:mx-0 w-32 md:w-40"
-            />
-          </div>
-          <p className="text-lg font-semibold text-gray-600">Presents</p>
-          <h1 className="text-3xl md:text-5xl font-extrabold text-gray-800 mt-2">
+          <h1 className="text-3xl md:text-5xl font-extrabold text-white mt-2">
             Smart Delhi Ideathon 2025
           </h1>
-          <p className="text-gray-600 text-lg mt-4">
+          <p className="text-gray-100 text-lg mt-4">
             Reinventing Delhi with Tech and Creativity
           </p>
           <div className="mt-6 flex justify-center md:justify-start gap-4">
@@ -64,7 +74,7 @@ export default function HeroSection() {
         </div>
 
         {/* Left Section: Carousel */}
-        <div className="w-full md:w-1/2 mb-8 md:mb-0">
+        <div className="w-full  md:w-1/2 mt-8 md:mt-0 md:mb-0">
           <HeroCarousel />
         </div>
       </div>

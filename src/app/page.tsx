@@ -1,3 +1,4 @@
+import AboutHackathon from "@/components/AboutUs";
 import HeroCarousel from "@/components/Corousel";
 import HeroSection from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -8,6 +9,7 @@ export default function Home() {
     <>
     <Navbar />
     <HeroSection />
+    <AboutHackathon />
     </>
   );
 }
