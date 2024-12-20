@@ -26,3 +26,7 @@ body {
   }
   
 }
+
+button {
+  @apply transform hover:scale-[101%] transition duration-300;
+}
