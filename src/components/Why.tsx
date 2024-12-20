@@ -3,7 +3,7 @@ const WhySDISection = () => {
       {
         title: "Actionable Strategies",
         description:
-          "Identify actionable strategies to tackle Delhi’s urban governance challenges.",
+          "Identify actionable strategies to tackle Delhi&apos;s urban governance challenges.",
         icon: "⚙️",
       },
       {
@@ -36,7 +36,7 @@ const WhySDISection = () => {
       <section className="py-16 bg-gradient-to-br from-indigo-100 to-indigo-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-center text-3xl md:text-5xl font-extrabold text-indigo-600 mb-8">
-            Why is SDI Important for Delhi's Development?
+            Why is SDI Important for Delhi&apos;s Development?
           </h2>
           <p className="text-center text-lg md:text-xl text-gray-700 mb-12">
             Smart Delhi Ideathon serves as a transformative platform to address

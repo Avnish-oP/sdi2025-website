@@ -23,8 +23,8 @@ export default function AboutUs() {
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
                 <span className="font-bold text-gray-800">Smart Delhi Ideathon</span> is an initiative
                 inviting college students to craft <span className="text-indigo-600">innovative solutions</span> for
-                Delhi's urban challenges. Focusing on areas like <span className="font-bold text-gray-800">air
-                pollution, traffic management, waste processing, women’s safety</span>, and{" "}
+                Delhi&apos;s urban challenges. Focusing on areas like <span className="font-bold text-gray-800">air
+                pollution, traffic management, waste processing, women&apos;s safety</span>, and{" "}
                 <span className="font-bold text-gray-800">economic development</span>, participants will leverage
                 cutting-edge technologies, such as <span className="text-indigo-600">AI</span>, to create practical and
                 scalable solutions.
