@@ -1,5 +1,4 @@
-
-
+"use client";
 export default function Committee() {
   return (
     <div className="gap-10 flex flex-col justify-center items-center md:py-18 bg-gradient-to-r from-purple-100 to-pink-200">
@@ -18,7 +17,7 @@ export default function Committee() {
   );
 }
 
-function Card({ name, role, image }: any) {
+function Card({ name, role, image }: { name: string; role: string; image: string }) {
   return (
     <div className="flex flex-col hover:scale-[101%] transition  items-center bg-white p-10 rounded-lg shadow-lg border bottom-2 border-indigo-200">
       <img

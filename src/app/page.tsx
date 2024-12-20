@@ -9,7 +9,6 @@ import Committee from "@/components/Committee";
 export default function Home() {
   return (
     <>
-    <Navbar />
     <HeroSection />
     <AboutHackathon />
     <Themes />
