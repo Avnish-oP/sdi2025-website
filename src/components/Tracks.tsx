@@ -7,6 +7,8 @@ import "slick-carousel/slick/slick-theme.css";
 import { desc } from "framer-motion/client";
 import Image from "next/image";
 
+import themesData from '../themes.json';
+
 // Dynamically import react-slick to prevent SSR issues
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
@@ -14,7 +16,7 @@ function Tracks() {
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -50,47 +52,47 @@ function Tracks() {
 
   return (
     <div className="slider-container  bg-gradient-to-r from-purple-100 to-pink-200 p-10 mx-auto">
+
+<h2 className="text-4xl font-bold text-indigo-800 mb-2 animate__animated animate__fadeIn">
+          Hackathon Themes
+        </h2>
+        <p className="text-gray-600 text-lg mb-12 animate__animated animate__fadeIn animate__delay-1s">
+          Explore the diverse themes designed to address Delhi’s pressing urban
+          challenges through technology and innovation.
+        </p>
+
       <Slider {...settings}>
         <div className="">
           <Trackk 
-            icon={<Image src="/images/event1.png" alt="track1" width={100} height={100} />}
-            title="Track 1"
-            description="Description 1"    
+            index = {1}
+            icon="♻️"
+            title={themesData.Theme_1.title}
+            overview={themesData.Theme_1.overview}
+            possible_challenges={themesData.Theme_1.possible_challenges}
+            concerned_government_departments={themesData.Theme_1.concerned_government_departments}
+            relevant_links={themesData.Theme_1.relevant_links }    
           />
         </div>
         <div className="">
-        <Trackk 
-            icon={<Image src="/images/event1.png" alt="track1" width={100} height={100} />}
-            title="Track 1"
-            description="Description 1"    
+          <Trackk 
+            index={2}
+            icon="♻️.."
+            title={themesData.Theme_2.title}
+            overview={themesData.Theme_2.overview}
+            possible_challenges={themesData.Theme_2.possible_challenges}
+            concerned_government_departments={themesData.Theme_2.concerned_government_departments}
+            relevant_links={themesData.Theme_2.relevant_links }    
           />
         </div>
         <div className="">
-        <Trackk 
-            icon={<Image src="/images/event1.png" alt="track1" width={100} height={100} />}
-            title="Track 1"
-            description="Description 1"    
-          />
-        </div>
-        <div className="">
-        <Trackk 
-            icon={<Image src="/images/event1.png" alt="track1" width={100} height={100} />}
-            title="Track 1"
-            description="Description 1"    
-          />
-        </div>
-        <div className="">
-        <Trackk 
-            icon={<Image src="/images/event1.png" alt="track1" width={100} height={100} />}
-            title="Track 1"
-            description="Description 1"    
-          />
-        </div>
-        <div className="">
-        <Trackk 
-            icon={<Image src="/images/event1.png" alt="track1" width={100} height={100} />}
-            title="Track 1"
-            description="Description 1"    
+          <Trackk 
+            index={3}
+            icon="..♻️"
+            title={themesData.Theme_3.title}
+            overview={themesData.Theme_3.overview}
+            possible_challenges={themesData.Theme_3.possible_challenges}
+            concerned_government_departments={themesData.Theme_3.concerned_government_departments}
+            relevant_links={themesData.Theme_3.relevant_links }    
           />
         </div>
       </Slider>
@@ -98,18 +100,90 @@ function Tracks() {
   );
 }
 
-function Trackk({ icon, title, description }: any) {
-  return(
-    <div className="flex flex-col justify-center items-center bg-white rounded-lg p-6 transform scale-95 hover:scale-100 transition-all duration-300 cursor-pointer">
-    <div className="text-6xl mb-4 text-indigo-600 animate__animated animate__fadeIn">
-      {icon}
+
+function Trackk({
+  index,
+  icon,
+  title,
+  overview,
+  possible_challenges,
+  concerned_government_departments,
+  relevant_links,
+}: {
+  index: number;
+  icon: any;
+  title: string;
+  overview: string;
+  possible_challenges: string[];
+  concerned_government_departments: Record<string, string>;
+  relevant_links: string[];
+}) {
+  return (
+    <div className="flex flex-col bg-white rounded-lg p-6 transform scale-95 transition-all duration-300 shadow-md cursor-pointer">
+      <div className="index text-xl font-bold absolute p-5 right-0">#THEME {index}</div>
+
+      {/* Icon */}
+      <div className="text-6xl mb-4 text-indigo-600 animate__animated animate__fadeIn">
+        {icon}
+      </div>
+
+      {/* Title */}
+      <h3 className="text-2xl font-semibold text-gray-800 mb-4 hover:text-indigo-600 transition-all">
+        Title: {title}
+      </h3>
+
+      {/* Overview */}
+      <p className="text-gray-600 text-sm mb-4">Overview: {overview}</p>
+
+      {/* Possible Challenges */}
+      <div className="mb-4">
+        <h3 className="text-lg font-semibold text-gray-800 mb-2">Possible Challenges</h3>
+        <ul className="list-disc pl-6 text-gray-600 space-y-2">
+          {possible_challenges.map((challenge, index) => (
+            <li key={index}>{challenge}</li>
+          ))}
+        </ul>
+      </div>
+
+      {/* Concerned Government Departments */}
+      <div className="mb-4">
+        <h3 className="text-lg font-semibold text-gray-800 mb-2">
+          Concerned Government Departments
+        </h3>
+        <ul className="list-disc pl-6 text-gray-600 space-y-2">
+          {Object.entries(concerned_government_departments).map(
+            ([department, description], index) => (
+              <li key={index}>
+                <span className="font-semibold">{department}:</span> {description}
+              </li>
+            )
+          )}
+        </ul>
+      </div>
+
+      {/* Relevant Links */}
+      <div>
+        <h3 className="text-lg font-semibold text-gray-800 mb-2">Relevant Links</h3>
+        <ul className="list-disc pl-6 text-blue-600 space-y-2">
+          {relevant_links.map((link, index) => (
+            <li key={index}>
+              <a
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                {link}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="index text-xl font-bold right-0 absolute bottom-0 p-5">#{index}/7</div>
+
     </div>
-    <h3 className="text-2xl font-semibold text-gray-800 mb-4 hover:text-indigo-600 transition-all">
-      {title}
-    </h3>
-    <p className="text-gray-600 text-sm">{description}</p>
-  </div>
-  )
+  );
 }
 
 export default Tracks;

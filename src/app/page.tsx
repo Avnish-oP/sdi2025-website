@@ -13,7 +13,7 @@ export default function Home() {
     <Navbar />
     <HeroSection />
     <AboutHackathon />
-    <Themes />
+    {/* <Themes /> */}
     <Tracks />
     <HackathonTimeline />
     <OrganizingCommittee />
