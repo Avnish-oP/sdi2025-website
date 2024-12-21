@@ -14,7 +14,7 @@ export default function Home() {
     <div id="about"><AboutHackathon /></div>
     <div id="themes">
       <Themes />
-      <Tracks />
+      {/* <Tracks /> */}
     </div>
     <div id="schedule"><HackathonTimeline /></div>
     <WhySDISection />
