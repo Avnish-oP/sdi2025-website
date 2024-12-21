@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { desc } from "framer-motion/client";
 import Image from "next/image";
 
-import themesData from '../themes.json';
+import themesData from "../themes.json";
 
 // Dynamically import react-slick to prevent SSR issues
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
@@ -52,54 +52,110 @@ function Tracks() {
 
   return (
     <div className="slider-container  bg-gradient-to-r from-purple-100 to-pink-200 p-10 mx-auto">
-
-<h2 className="text-4xl font-bold text-indigo-800 mb-2 animate__animated animate__fadeIn">
-          Hackathon Themes
-        </h2>
-        <p className="text-gray-600 text-lg mb-12 animate__animated animate__fadeIn animate__delay-1s">
-          Explore the diverse themes designed to address Delhi’s pressing urban
-          challenges through technology and innovation.
-        </p>
+      <h2 className="text-4xl text-center font-bold text-indigo-800 mb-2 animate__animated animate__fadeIn">
+        Hackathon Problem Statements
+      </h2>
+      <p className="text-gray-600 text-center text-lg mb-12 animate__animated animate__fadeIn animate__delay-1s">
+        Explore the diverse themes designed to address Delhi’s pressing urban
+        challenges through technology and innovation.
+      </p>
 
       <Slider {...settings}>
         <div className="">
-          <Trackk 
-            index = {1}
-            icon="♻️"
+          <Trackk
+            index={1}
+            icon="🚦"
             title={themesData.Theme_1.title}
             overview={themesData.Theme_1.overview}
             possible_challenges={themesData.Theme_1.possible_challenges}
-            concerned_government_departments={themesData.Theme_1.concerned_government_departments}
-            relevant_links={themesData.Theme_1.relevant_links }    
+            concerned_government_departments={
+              themesData.Theme_1.concerned_government_departments
+            }
+            relevant_links={themesData.Theme_1.relevant_links}
           />
         </div>
         <div className="">
-          <Trackk 
+          <Trackk
             index={2}
-            icon="♻️.."
+            icon="🛡️"
             title={themesData.Theme_2.title}
             overview={themesData.Theme_2.overview}
             possible_challenges={themesData.Theme_2.possible_challenges}
-            concerned_government_departments={themesData.Theme_2.concerned_government_departments}
-            relevant_links={themesData.Theme_2.relevant_links }    
+            concerned_government_departments={
+              themesData.Theme_2.concerned_government_departments
+            }
+            relevant_links={themesData.Theme_2.relevant_links}
           />
         </div>
         <div className="">
-          <Trackk 
+          <Trackk
             index={3}
-            icon="..♻️"
+            icon="🌱"
             title={themesData.Theme_3.title}
             overview={themesData.Theme_3.overview}
             possible_challenges={themesData.Theme_3.possible_challenges}
-            concerned_government_departments={themesData.Theme_3.concerned_government_departments}
-            relevant_links={themesData.Theme_3.relevant_links }    
+            concerned_government_departments={
+              themesData.Theme_3.concerned_government_departments
+            }
+            relevant_links={themesData.Theme_3.relevant_links}
+          />
+        </div>
+        <div className="">
+          <Trackk
+            index={4}
+            icon="💡"
+            title={themesData.Theme_4.title}
+            overview={themesData.Theme_4.overview}
+            possible_challenges={themesData.Theme_4.possible_challenges}
+            concerned_government_departments={
+              themesData.Theme_4.concerned_government_departments
+            }
+            relevant_links={themesData.Theme_4.relevant_links}
+          />
+        </div>
+        <div className="">
+          <Trackk
+            index={5}
+            icon="♻️"
+            title={themesData.Theme_5.title}
+            overview={themesData.Theme_5.overview}
+            possible_challenges={themesData.Theme_5.possible_challenges}
+            concerned_government_departments={
+              themesData.Theme_5.concerned_government_departments
+            }
+            relevant_links={themesData.Theme_5.relevant_links}
+          />
+        </div>
+        <div className="">
+          <Trackk
+            index={6}
+            icon="💧"
+            title={themesData.Theme_6.title}
+            overview={themesData.Theme_6.overview}
+            possible_challenges={themesData.Theme_6.possible_challenges}
+            concerned_government_departments={
+              themesData.Theme_6.concerned_government_departments
+            }
+            relevant_links={themesData.Theme_6.relevant_links}
+          />
+        </div>
+        <div className="">
+          <Trackk
+            index={7}
+            icon="🤖"
+            title={themesData.Theme_7.title}
+            overview={themesData.Theme_7.overview}
+            possible_challenges={themesData.Theme_7.possible_challenges}
+            concerned_government_departments={
+              themesData.Theme_7.concerned_government_departments
+            }
+            relevant_links={themesData.Theme_7.relevant_links}
           />
         </div>
       </Slider>
     </div>
   );
 }
-
 
 function Trackk({
   index,
@@ -119,8 +175,10 @@ function Trackk({
   relevant_links: string[];
 }) {
   return (
-    <div className="flex flex-col bg-white rounded-lg p-6 transform scale-95 transition-all duration-300 shadow-md cursor-pointer">
-      <div className="index text-xl font-bold absolute p-5 right-0">#THEME {index}</div>
+    <div className="flex flex-col bg-white h-[70rem] rounded-lg p-6 transform scale-95 transition-all duration-300 shadow-md cursor-pointer">
+      <div className="index text-xl font-bold absolute p-5 right-0">
+        #THEME {index}
+      </div>
 
       {/* Icon */}
       <div className="text-6xl mb-4 text-indigo-600 animate__animated animate__fadeIn">
@@ -137,7 +195,9 @@ function Trackk({
 
       {/* Possible Challenges */}
       <div className="mb-4">
-        <h3 className="text-lg font-semibold text-gray-800 mb-2">Possible Challenges</h3>
+        <h3 className="text-lg font-semibold text-gray-800 mb-2">
+          Possible Challenges
+        </h3>
         <ul className="list-disc pl-6 text-gray-600 space-y-2">
           {possible_challenges.map((challenge, index) => (
             <li key={index}>{challenge}</li>
@@ -154,7 +214,8 @@ function Trackk({
           {Object.entries(concerned_government_departments).map(
             ([department, description], index) => (
               <li key={index}>
-                <span className="font-semibold">{department}:</span> {description}
+                <span className="font-semibold">{department}:</span>{" "}
+                {description}
               </li>
             )
           )}
@@ -163,7 +224,9 @@ function Trackk({
 
       {/* Relevant Links */}
       <div>
-        <h3 className="text-lg font-semibold text-gray-800 mb-2">Relevant Links</h3>
+        <h3 className="text-lg font-semibold text-gray-800 mb-2">
+          Relevant Links
+        </h3>
         <ul className="list-disc pl-6 text-blue-600 space-y-2">
           {relevant_links.map((link, index) => (
             <li key={index}>
@@ -180,8 +243,9 @@ function Trackk({
         </ul>
       </div>
 
-      <div className="index text-xl font-bold right-0 absolute bottom-0 p-5">#{index}/7</div>
-
+      <div className="index text-xl font-bold right-0 absolute bottom-0 p-5">
+        #{index}/7
+      </div>
     </div>
   );
 }
