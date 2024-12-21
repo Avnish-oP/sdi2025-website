@@ -118,10 +118,10 @@ const Footer = () => {
             <p className="flex items-center gap-2">
               <span className="text-indigo-300">📧</span>
               <a
-                href="mailto:info@smartdelhiideathon.com"
+                href="mailto:Sdi2025@ipu.ac.in"
                 className="text-gray-300 hover:text-white transition"
               >
-                info@smartdelhiideathon.com
+                Sdi2025@ipu.ac.in
               </a>
             </p>
             <p className="flex items-center gap-2">

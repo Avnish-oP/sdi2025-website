@@ -21,11 +21,11 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
-            {["Home", "About", "Problem Statements", "FAQ", "Contact Us"].map(
+            {["Home", "About", "Themes", "FAQ", "Contact Us"].map(
               (item) => (
                 <Link
                   key={item}
-                  href={`#${item.toLowerCase().replace(" ", "-")}`}
+                  href={item==="Contact Us"?"/contact":`#${item.toLowerCase().replace(" ", "-")}`}
                   className="relative text-gray-700 font-medium hover:text-indigo-600 transition duration-300 group"
                 >
                   {item}
@@ -72,7 +72,7 @@ export default function Navbar() {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden mt- flex flex-col gap-2 space-y-4 pb-10">
-            {["Home", "About", "Problem Statements", "FAQ", "Contact Us"].map(
+            {["Home", "About", "Themes", "FAQ", "Contact Us"].map(
               (item) => (
                 <Link
                   key={item}

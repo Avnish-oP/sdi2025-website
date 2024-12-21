@@ -8,10 +8,10 @@ import Committee from "@/components/Committee";
 export default function Home() {
   return (
     <>
-    <HeroSection />
-    <AboutHackathon />
-    <Themes />
-    <HackathonTimeline />
+    <div id="home"><HeroSection /></div>
+    <div id="about"><AboutHackathon /></div>
+    <div id="themes"><Themes /></div>
+    <div id="schedule"><HackathonTimeline /></div>
     <WhySDISection />
     <Committee />
     </>
