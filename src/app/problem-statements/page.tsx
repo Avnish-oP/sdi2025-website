@@ -26,8 +26,8 @@ function Tracks() {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -35,9 +35,9 @@ function Tracks() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
       {
@@ -179,7 +179,7 @@ function Trackk({
   return (
     <div className="flex flex-col bg-white lg:h-[70rem] rounded-lg p-6 transform scale-95 transition-all duration-300 shadow-md cursor-pointer">
       <div className="index text-xl text-indigo-700 font-bold absolute p-5 right-0">
-        Problem Statement ID: #SDI-00{index}
+        #SDI-00{index}
       </div>
 
       {/* Icon */}
