@@ -334,11 +334,11 @@ function TrackCard({
               Read More
             </button>
           </Link>
-          {/* <Link href={pslink}>
-            <button className="px-6 py-3 bg-gray-100 border text-gray-800 font-bold rounded-lg shadow-md hover:bg-gray-300 transition">
+          <Link href={pslink}>
+            <button className="px-6 hidden py-3 bg-gray-100 border text-gray-800 font-bold rounded-lg shadow-md hover:bg-gray-300 transition">
               Download PDF
             </button>
-          </Link> */}
+          </Link>
         </div>
       </div>
 
