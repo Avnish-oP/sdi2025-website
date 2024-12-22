@@ -83,9 +83,9 @@ export default function Themes() {
   };
 
   return (
-    <section className="py-16 bg-gradient-to-r from-purple-100 to-pink-200">
+    <section className="py-20 bg-gradient-to-r from-purple-100 to-pink-200">
       <div className="container mx-auto px-6 lg:px-16 text-center">
-        <h2 className="text-4xl font-bold text-indigo-800 mb-2 animate__animated animate__fadeIn">
+        <h2 className="text-4xl font-bold text-indigo-800 md:mb-5 mb-2 animate__animated animate__fadeIn">
           Hackathon Themes
         </h2>
         <p className="text-gray-600 text-lg mb-12 animate__animated animate__fadeIn animate__delay-1s">

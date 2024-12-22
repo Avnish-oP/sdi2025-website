@@ -5,7 +5,7 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import themesData from "../themes.json";
+import themesData from "../../themes.json";
 
 // Dynamically import react-slick to prevent SSR issues
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
@@ -24,8 +24,8 @@ function Tracks() {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -33,9 +33,9 @@ function Tracks() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
       {
@@ -51,7 +51,7 @@ function Tracks() {
   };
 
   return (
-    <div className="slider-container overflow-hidden  bg-gradient-to-r from-purple-100 to-pink-200 md:p-10 mx-auto">
+    <div className="slider-container overflow-hidden pt-32  bg-gradient-to-r from-purple-100 to-pink-200 md:px-10 mx-auto">
       <h2 className="text-4xl text-center font-bold text-indigo-800 mb-2 animate__animated animate__fadeIn">
         Hackathon Problem Statements
       </h2>
@@ -177,7 +177,7 @@ function Trackk({
   return (
     <div className="flex flex-col bg-white lg:h-[70rem] rounded-lg p-6 transform scale-95 transition-all duration-300 shadow-md cursor-pointer">
       <div className="index text-xl text-indigo-700 font-bold absolute p-5 right-0">
-        #THEME {index}
+        #SDI-00{index}
       </div>
 
       {/* Icon */}
