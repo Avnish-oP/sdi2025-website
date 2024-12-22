@@ -17,7 +17,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Smart Delhi Ideathon",
   description: "Crafting innovative solutions for Delhi's urban challenges.",
-};
+  icons: {
+    icon: "/logo.png",
+  }
+  };
 
 export default function RootLayout({
   children,
