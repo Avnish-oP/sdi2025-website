@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,8 @@ export default function Navbar() {
               href="/"
               className="text-2xl font-extrabold text-indigo-600 hover:text-indigo-800 transition duration-300"
             >
-              Logo
+              <Image src="/logo.png" width={90} height={80} quality={100} className="h-auto w-auto" alt="logo" />
+
             </Link>
           </div>
 
