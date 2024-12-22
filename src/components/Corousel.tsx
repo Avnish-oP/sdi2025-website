@@ -32,16 +32,20 @@ export default function HeroCarousel() {
   }, []);
 
   return (
-    <div className="relative w-full h-96 md:h-[20rem] lg:h-[24rem] flex items-center justify-center overflow-hidden rounded-xl shadow-lg">
+    <div className="relative w-full h-96 md:h-[20rem] lg:h-[32rem] flex items-center justify-center overflow-hidden rounded-xl shadow-lg">
       {/* Background Images with Parallax Effect */}
       {carouselItems.map((item, index) => (
         <div
           key={index}
-          className={`absolute inset-0 transition-transform duration-700 ease-in-out ${
-            index === currentIndex
-              ? "translate-x-0 z-10 opacity-100"
-              : "translate-x-full z-0 opacity-0"
+          // className={`absolute inset-0 transition-transform duration-700 ease-in-out ${
+          //   index === currentIndex
+          //     ? "translate-x-0 z-10 opacity-100"
+          //     : "translate-x-full z-0 opacity-0"
+          // }`}
+          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+            index === currentIndex ? "opacity-100 z-10" : "opacity-0 z-0"
           }`}
+          
           style={{
             backgroundImage: `url(${item.image})`,
             backgroundSize: "cover",

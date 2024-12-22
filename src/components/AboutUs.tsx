@@ -10,13 +10,17 @@ export default function AboutUs() {
                 alt="Smart Delhi Ideathon"
                 className="w-full max-w-md mx-auto md:max-w-none md:mx-0 transform hover:scale-[102%] transition duration-300 rounded-lg"
               />
-              {/* Decorative Circle */}
-              <div className="absolute -top-10 -left-10 w-32 h-32 bg-indigo-500 rounded-full blur-xl opacity-30 pointer-events-none"></div>
-              <div className="absolute bottom-10 right-10 w-24 h-24 bg-pink-500 rounded-full blur-xl opacity-30 pointer-events-none"></div>
             </div>
   
             {/* Right Section: Content */}
-            <div className="w-full md:w-1/2 text-center md:text-left">
+            <div className="w-full md:w-1/2 text-justify">
+
+            
+              {/* Decorative Circle */}
+              <div className="absolute md:hidden bottom-10 left-10 w-32 h-32 bg-indigo-500 rounded-full blur-xl opacity-30 pointer-events-none"></div>
+              <div className="absolute md:hidden bottom-10 right-10 w-24 h-24 bg-pink-500 rounded-full blur-xl opacity-30 pointer-events-none"></div>
+
+
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 leading-tight mb-6">
                 About the <span className="text-indigo-600">Smart Delhi Ideathon</span>
               </h2>
@@ -34,9 +38,11 @@ export default function AboutUs() {
                 contribute to making Delhi a model of sustainable and citizen-centric urban governance.
               </p>
               <div className="mt-6 flex justify-center md:justify-start gap-4">
+                <a href="/problem-statements">
                 <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
-                  Learn More
+                  Problem Statements
                 </button>
+                </a>
                 <button className="px-6 py-3 bg-white text-gray-800 font-bold rounded-lg shadow-md hover:bg-gray-300 transition">
                     Register Now
                 </button>
