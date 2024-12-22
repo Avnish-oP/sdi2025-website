@@ -1,6 +1,8 @@
 "use client";
 
-import {useState } from "react";
+import { useState } from "react";
+
+import themesData from "../themes.json";
 
 export default function Themes() {
   const themes = [
@@ -57,8 +59,12 @@ export default function Themes() {
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedTheme, setSelectedTheme] = useState<null | typeof themes[0]>(null);
-  const [slideDirection, setSlideDirection] = useState<"left" | "right">("right");
+  const [selectedTheme, setSelectedTheme] = useState<null | (typeof themes)[0]>(
+    null
+  );
+  const [slideDirection, setSlideDirection] = useState<"left" | "right">(
+    "right"
+  );
 
   const handlePrev = () => {
     setSlideDirection("left");
@@ -74,7 +80,7 @@ export default function Themes() {
     );
   };
 
-  const handleCardClick = (theme: typeof themes[0]) => {
+  const handleCardClick = (theme: (typeof themes)[0]) => {
     setSelectedTheme(theme);
   };
 
@@ -123,6 +129,18 @@ export default function Themes() {
                   <p className="text-gray-600 text-sm">{theme.description}</p>
                 </div>
               ))}
+
+            <div
+              className="bg-white shadow-lg rounded-lg p-6 transform hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer"
+            >
+              <div className="text-6xl mb-4 text-indigo-600 animate__animated animate__fadeIn">
+                {themesData.Theme_1.icon}
+              </div>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-4 hover:text-indigo-600 transition-all">
+                {themesData.Theme_1.title}
+              </h3>
+              <p className="text-gray-600 text-sm">{themesData.Theme_1.overview}</p>
+            </div>
           </div>
 
           <button

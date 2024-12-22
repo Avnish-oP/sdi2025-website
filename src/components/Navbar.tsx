@@ -1,13 +1,13 @@
 "use client"
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md fixed w-full z-30 transition-all duration-300">
+    <nav className="bg-white shadow-xl fixed w-full z-30 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
@@ -16,7 +16,12 @@ export default function Navbar() {
               href="/"
               className="text-2xl font-extrabold text-indigo-600 hover:text-indigo-800 transition duration-300"
             >
-              <Image src="/logo.png" width={90} height={80} quality={100} className="h-auto w-auto" alt="logo" />
+              {/* <Image src="/logo.png" width={70} height={70} quality={100} className="h-12 w-auto" alt="logo" /> */}
+              <img
+                src="/logo.png" // Replace with your illustration path
+                alt="Smart Delhi Ideathon"
+                className="p-1 h-16"
+              />
 
             </Link>
           </div>

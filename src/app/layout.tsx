@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   description: "Crafting innovative solutions for Delhi's urban challenges.",
   icons: {
     icon: "/logo.png",
-  }
-  };
+  },
+};
 
 export default function RootLayout({
   children,

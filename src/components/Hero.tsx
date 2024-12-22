@@ -1,4 +1,5 @@
 import HeroCarousel from "./Corousel"; // Import the Carousel Component
+import Link from 'next/link';
 
 export default function HeroSection() {
   return (
@@ -20,7 +21,7 @@ export default function HeroSection() {
 
       {/* Background Elements */}
       <div className="absolute inset-0 z-10 pointer-events-none">
-        <svg
+        {/* <svg
           className="absolute top-1/2 left-10 w-40 h-40 text-gray-200"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 100 100"
@@ -51,7 +52,7 @@ export default function HeroSection() {
             stroke="currentColor"
             strokeWidth="1"
           />
-        </svg>
+        </svg> */}
       </div>
 
       <div className="container z-20 mt-10 mx-auto flex flex-col md:flex-row gap-8 items-center justify-between px-4 lg:px-8">
@@ -67,9 +68,11 @@ export default function HeroSection() {
             <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
               Register Now
             </button>
+            <Link href="/#about">
             <button className="px-6 py-3 bg-white text-gray-800 font-bold rounded-lg shadow-md hover:bg-gray-300 transition">
               Learn More
             </button>
+            </Link>
           </div>
         </div>
 
