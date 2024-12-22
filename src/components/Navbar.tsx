@@ -12,7 +12,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link
-              href="#home"
+              href="/"
               className="text-2xl font-extrabold text-indigo-600 hover:text-indigo-800 transition duration-300"
             >
               Logo

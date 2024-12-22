@@ -5,7 +5,6 @@ import  Themes  from "@/components/Themes";
 import WhySDISection from "@/components/Why";
 import Committee from "@/components/Committee";
 import  Tracks  from "@/components/Tracks";
-import Image from "next/image";
 
 export default function Home() {
   return (
