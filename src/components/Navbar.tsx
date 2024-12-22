@@ -16,7 +16,12 @@ export default function Navbar() {
               href="/"
               className="text-2xl font-extrabold text-indigo-600 hover:text-indigo-800 transition duration-300"
             >
-              <Image src="/logo.png" width={90} height={80} quality={100} className="h-auto w-auto" alt="logo" />
+              {/* <Image src="/logo.png" width={70} height={70} quality={100} className="h-12 w-auto" alt="logo" /> */}
+              <img
+                src="/logo.png" // Replace with your illustration path
+                alt="Smart Delhi Ideathon"
+                className="p-1 h-16"
+              />
 
             </Link>
           </div>
