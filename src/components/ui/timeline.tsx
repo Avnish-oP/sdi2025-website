@@ -33,14 +33,14 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="w-full overflow-hidden bg-white font-sans md:px-10 "
+      className="w-full overflow-hidden bg-white font-sans md:pt-20 md:px-10 "
       ref={containerRef}
     >
       <div className="max-w-7xl mx-auto py-10 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 font-bold text-black max-w-4xl">
+        <h2 className="text-3xl md:text-5xl mb-4 font-bold hover:text-indigo-700 text-black max-w-4xl">
           Hackathon&apos;s Timeline
         </h2>
-        <p className="text-neutral-700  text-sm md:text-base max-w-sm">
+        <p className="text-neutral-700  text-lg md:text-xl max-w-sm">
             Here is the timeline of the hackathon. Stay tuned for more updates.
         </p>
       </div>
@@ -49,13 +49,13 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         {data.map((item, index) => (
           <div
             key={index}
-            className="flex justify-start pt-10 md:pt-40 md:gap-10"
+            className="flex justify-start pt-10 md:pt-20 md:gap-10"
           >
             <div className="sticky flex flex-col md:flex-row z-10 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white border flex items-center justify-center">
                 <div className="h-4 w-4 rounded-full bg-violet-500  border border-neutral-300 p-2" />
               </div>
-              <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-neutral-500  ">
+              <h3 className="hidden md:block text-xl md:pl-20 md:text-4xl font-bold text-neutral-500  ">
                 {item.title}
               </h3>
             </div>

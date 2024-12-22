@@ -21,17 +21,17 @@ export function HackathonTimeline() {
                   alt="Hackathon Start"
                   width={300}
                   height={500}
-                  className="rounded-lg object-cover h-20 md:h-44 lg:h-60  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+                  className="rounded-lg object-cover h-48 md:h-44 lg:h-60  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                 />
               </div>
               <div className="flex flex-col md:flex-row gap-4">
                 <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
                   <span className="text-indigo-600 text-xl">Venue:</span> Raj Niwas, Delhi
                 </p>
+              </div>
                 <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
                   <span className="text-indigo-600 text-xl">Time:</span> 11:00 AM
                 </p>
-              </div>
             </div>
           ),
         },
@@ -45,13 +45,13 @@ export function HackathonTimeline() {
               <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
                 Online Submission (For more details, refer to competition link…)
               </p>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="">
                 <Image
                   src="/images/LG_Sir.jpeg"
                   alt="Hackathon Start"
                   width={300}
                   height={500}
-                  className="rounded-lg object-contain h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+                  className="rounded-lg object-cover h-48 md:h-44 lg:h-60  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                 />
               </div>
               <div className="flex flex-col md:flex-row gap-4">
@@ -59,10 +59,10 @@ export function HackathonTimeline() {
                   <span className="text-indigo-600 text-xl">Venue:</span> Hosted on the
                   GGSIP University Competition Portal (Link)
                 </p>
+              </div>
                 <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
                   <span className="text-indigo-600 text-xl">Result Date:</span> Jan 16, 2025
                 </p>
-              </div>
             </div>
           ),
         },
@@ -76,24 +76,23 @@ export function HackathonTimeline() {
               <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
                 In-person through PPT
               </p>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="4">
                 <Image
                   src="/images/LG_Sir.jpeg"
                   alt="Hackathon Start"
                   width={300}
                   height={500}
-                  className="rounded-lg object-contain h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+                  className="rounded-lg object-cover h-48 md:h-44 lg:h-60  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                 />
               </div>
               <div className="flex flex-col md:flex-row gap-4">
                 <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
-                  <span className="text-indigo-600 text-xl">Venue:</span> Raj Niwas/GGSIP
-                  University Auditorium at Shahdara Campus
+                  <span className="text-indigo-600 text-xl">Venue: </span> GGSIPU Auditorium at Shahdara Campus
                 </p>
+              </div>
                 <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
                   <span className="text-indigo-600 text-xl">Result Date:</span> Jan 25, 2025
                 </p>
-              </div>
               <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
                 10:00 AM - 01:00 PM: Presentations by different teams and mentorship by Jury
                 members
@@ -114,24 +113,23 @@ export function HackathonTimeline() {
               <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
                 In-person through PPT
               </p>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="">
                 <Image
                   src="/images/LG_Sir.jpeg"
                   alt="Hackathon Start"
                   width={300}
                   height={500}
-                  className="rounded-lg object-contain h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+                  className="rounded-lg object-cover h-48 md:h-44 lg:h-60  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                 />
               </div>
               <div className="flex flex-col md:flex-row gap-4">
                 <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
-                  <span className="text-indigo-600 text-xl">Venue:</span> Raj Niwas/GGSIP
-                  University Auditorium at Shahdara Campus
+                  <span className="text-indigo-600 text-xl">Venue: </span> GGSIPU Auditorium at Shahdara Campus
                 </p>
+              </div>
                 <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
                   <span className="text-indigo-600 text-xl">Jury:</span> Five eminent juries
                 </p>
-              </div>
               <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
                 10:00 AM - 01:30 PM: Presentations by different teams and mentorship by jury
                 members
@@ -152,23 +150,23 @@ export function HackathonTimeline() {
               <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
                 In-person event
               </p>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="">
                 <Image
                   src="/images/LG_Sir.jpeg"
                   alt="Hackathon Start"
                   width={300}
                   height={500}
-                  className="rounded-lg object-contain h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+                  className="rounded-lg object-cover h-48 md:h-44 lg:h-60  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                 />
               </div>
               <div className="flex flex-col md:flex-row gap-4">
                 <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
                   <span className="text-indigo-600 text-xl">Venue:</span> Raj Niwas
                 </p>
+              </div>
                 <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
                   <span className="text-indigo-600 text-xl">Time:</span> 10:00 AM - 05:00 PM
                 </p>
-              </div>
             </div>
           ),
         },
