@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AboutUs() {
     return (
       <section className="relative bg-gradient-to-r from-gray-50 to-gray-100 py-16 md:py-24 overflow-hidden">
@@ -38,11 +40,11 @@ export default function AboutUs() {
                 contribute to making Delhi a model of sustainable and citizen-centric urban governance.
               </p>
               <div className="mt-6 flex justify-center md:justify-start gap-4">
-                <a href="/problem-statements">
+                <Link href="/problem-statements">
                 <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
                   Problem Statements
                 </button>
-                </a>
+                </Link>
                 <button className="px-6 py-3 bg-white text-gray-800 font-bold rounded-lg shadow-md hover:bg-gray-300 transition">
                     Register Now
                 </button>

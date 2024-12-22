@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import themesData from "../../themes.json";
+import Link from "next/link";
 
 // Dynamically import react-slick to prevent SSR issues
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
@@ -262,16 +263,16 @@ function Trackk({
           To read more about the theme, click the button below:
         </h3>
         <div className="flex gap-4">
-          {/* <a href="/problem-statements">
+          {/* <Link href="/problem-statements">
             <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
               Read More
             </button>
-          </a> */}
-          <a href={`${pslink}`}>
+          </Link> */}
+          <Link href={`${pslink}`}>
             <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
               Download PDF
             </button>
-          </a>
+          </Link>
         </div>
       </div>
 
