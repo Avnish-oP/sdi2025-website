@@ -132,7 +132,7 @@ function Trackk({
   pslink: string;
 }) {
   return (
-    <div className="flex flex-col bg-white border-2 border-violet-400 min-h-[26rem] lg:min-h-[23rem] overflow-hidden rounded-lg p-6 transform scale-95 transition-all duration-300 shadow-md cursor-pointer">
+    <div className="flex flex-col bg-white border-2 border-violet-400 min-h-[26rem] lg:min-h-[23rem] overflow-hidden rounded-lg p-6 transform scale-90 hover:scale-95 transition-all duration-300 shadow-md cursor-pointer">
       <div className="index text-xl text-indigo-700 font-bold absolute p-5 right-0">
         #THEME {index}
       </div>
