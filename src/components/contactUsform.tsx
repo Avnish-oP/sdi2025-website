@@ -39,7 +39,7 @@ const ContactForm = () => {
         setFormStatus({ success: false, message: 'Failed to send message. Please try again later.' });
       }
     } catch (error) {
-      setFormStatus({ success: false, message: 'An error occurred. Please try again later.' });
+      setFormStatus({ success: false, message: `An error occurred ${error} Please try again later.`, });
     }
   };
 

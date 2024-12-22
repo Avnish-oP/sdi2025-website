@@ -165,7 +165,7 @@ function Trackk({
   relevant_links,
 }: {
   index: number;
-  icon: any;
+  icon: string;
   title: string;
   overview: string;
   possible_challenges: string[];
