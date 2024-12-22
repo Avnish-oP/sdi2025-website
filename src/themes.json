@@ -1,5 +1,7 @@
 {
     "Theme_1": {
+      "icon":"🚦",
+      "pslink":"/ps/001.pdf",
       "title": "Devising Innovative Solutions to Alleviate Traffic Congestion in Delhi with special focus on parking and traffic rule compliance",
       "overview": "Delhi, as one of the most densely populated cities in India, faces severe traffic congestion exacerbated by limited parking infrastructure, poor traffic rule compliance, and an ever-increasing number of vehicles on the road. Innovative solutions to tackle this issue require a multi-pronged approach. Strategies could include implementing smart parking systems that provide real-time parking availability updates to reduce illegal and double parking, enforcing stricter penalties for traffic violations through AI-enabled surveillance, and introducing congestion pricing in high-density areas to discourage unnecessary vehicular movement. Additionally, promoting shared mobility options, expanding pedestrian-friendly zones, and strengthening public transportation networks, such as electric buses and metro connectivity, can encourage a shift away from private vehicles. Collaboration between government bodies, tech companies, and civil society is essential to make these solutions both feasible and sustainable.",
       "possible_challenges": [
@@ -28,6 +30,8 @@
       ]
     },
     "Theme_2": {
+      "icon":"🛡️",
+      "pslink":"/ps/002.pdf",
       "title": "Creating a Safer Delhi for Women: Strengthening Law and Order for Inclusive Urban Safety",
       "overview": "Creating a safer Delhi for women requires a holistic approach to strengthening law and order while addressing the root causes of gender-based violence and insecurity. Key measures may include increasing the visibility and accessibility of law enforcement through dedicated women’s police units, enhanced patrolling in vulnerable areas, and deploying technology such as CCTV cameras and mobile safety apps for real-time assistance. Public spaces must be redesigned with safety in mind, incorporating better lighting, open layouts, and gender-sensitive urban planning. Community engagement is vital, with programs to educate citizens on gender equality and bystander intervention. Legal reforms and faster judicial processes are equally essential to ensure accountability for crimes against women. By fostering collaboration between government, NGOs, and community stakeholders, Delhi can work towards becoming an inclusive and secure city for women.",
       "possible_challenges": [
@@ -54,6 +58,8 @@
       ]
     },
     "Theme_3": {
+      "icon":"🌱",
+      "pslink":"/ps/003.pdf",
       "title": "Crafting Sustainable solution for Cleaner, Healthier Air in Delhi",
       "overview": "Delhi's air pollution crisis demands sustainable solutions to achieve cleaner and healthier air for its residents. Key strategies may include promoting renewable energy sources, transitioning to electric vehicles (EVs), and implementing stricter emission norms for industries and vehicles. Expanding green cover through urban afforestation and creating vertical gardens along roads and buildings can help mitigate pollution. Effective waste management systems, particularly to prevent stubble burning and reduce landfill emissions, are crucial. Enhancing public transportation and encouraging carpooling can reduce vehicular emissions, while policies like congestion pricing can disincentivize private vehicle use. Citizen involvement, awareness campaigns, and incentives for adopting green practices are essential to ensure long-term success. An integrated approach involving government agencies, industries, and the public can transform Delhi into a city with cleaner, breathable air.",
       "possible_challenges": [
@@ -80,6 +86,8 @@
       ]
     },
     "Theme_4": {
+      "icon":"💡",
+      "pslink":"/ps/004.pdf",
       "title": "Positioning Delhi as a Leading Hub of Economic Growth and Innovation",
       "overview": "Positioning Delhi as a leading hub of economic growth and innovation requires leveraging its strategic location, diverse talent pool, and existing infrastructure while fostering a culture of entrepreneurship and investment. Delhi can become a magnet for innovation by developing robust startup ecosystems through incubation centres, venture capital funding, and policies that support small and medium enterprises (SMEs). Strengthening key sectors such as information technology, renewable energy, healthcare, and logistics can drive sustainable economic growth. Additionally, enhancing connectivity through smart infrastructure, reliable public transport, and digital networks will make Delhi more attractive to businesses and investors. Collaborations between government, industry, and academia are vital to advance research and development and skill development initiatives. By focusing on inclusivity and sustainability, Delhi can position itself as a global leader in economic resilience and innovation.",
       "possible_challenges": [
@@ -106,6 +114,8 @@
       ]
     },
     "Theme_5": {
+      "icon":"♻️",
+      "pslink":"/ps/005.pdf",
       "title": "Achieving Zero Waste: Focus on waste segregation at source",
       "overview": "Achieving zero waste in Delhi requires a systemic shift towards waste segregation at the source, where households, businesses, and institutions separate recyclables, organics, and non-recyclables from the outset. This can be achieved through widespread awareness campaigns, community engagement, and the implementation of convenient systems like color-coded bins and doorstep collection of segregated waste. By ensuring that waste is sorted properly before it reaches landfills or incinerators, valuable resources can be recycled or composted, reducing the overall waste burden and environmental impact. The introduction of a robust circular economy model, where waste is treated as a resource, can further facilitate the transition to zero waste. Partnering with local recycling businesses and developing infrastructure for organic waste processing will be essential. Government incentives, coupled with stringent regulations, can encourage compliance, making waste segregation an integral part of urban living.",
       "possible_challenges": [
@@ -130,6 +140,8 @@
       ]
     },
     "Theme_6": {
+      "icon":"💧",
+      "pslink":"/ps/006.pdf",
       "title": "Maximizing Water Efficiency: Making Every Drop Count in Delhi",
       "overview": "Maximizing water efficiency in Delhi is critical to address the growing water scarcity faced by its burgeoning population. Key solutions include promoting rainwater harvesting at both residential and commercial levels, rejuvenating existing water bodies, and ensuring the efficient treatment and reuse of wastewater. Modernizing Delhi’s water distribution system to minimize leakage and theft can significantly conserve resources, while implementing smart water meters can encourage responsible consumption. Public awareness campaigns, combined with incentives for adopting water-efficient technologies like low-flow fixtures, can further drive conservation efforts. Policies to regulate groundwater extraction and encourage the use of alternative water sources, such as treated greywater, are essential for long-term sustainability. By integrating these strategies, Delhi can move towards making every drop count and ensuring water security for future generations.",
       "possible_challenges": [
@@ -153,6 +165,8 @@
       ]
     },
     "Theme_7": {
+      "icon":"🤖",
+      "pslink":"/ps/007.pdf",
       "title": "Leveraging AI for Governance: Establishing Delhi as a Global Leader in Smart Cities including a pioneer in scientific record keeping for data driven governance",
       "overview": "Leveraging AI for governance can transform Delhi into a global leader in smart cities by enabling data-driven decision-making and fostering efficient public service delivery. AI-powered tools can be integrated into urban management systems to optimize traffic flow, monitor air quality, manage waste, and enhance public safety through predictive policing. Establishing robust frameworks for scientific record-keeping will ensure accurate, real-time data collection and analysis, forming the backbone of data-driven governance. Key areas for AI deployment include streamlining citizen grievance redressal systems through chatbots, digitizing government processes for better transparency, and implementing AI-based predictive models to address urban challenges like water shortages and healthcare demands. Collaboration with tech companies, academic institutions, and startups can help develop innovative AI solutions tailored to Delhi’s needs. By embracing cutting-edge AI technology, Delhi can position itself as a global hub for smart governance.",
       "possible_challenges": [

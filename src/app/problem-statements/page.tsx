@@ -65,6 +65,7 @@ function Tracks() {
           <Trackk
             index={1}
             icon="🚦"
+            pslink={themesData.Theme_1.pslink}
             title={themesData.Theme_1.title}
             overview={themesData.Theme_1.overview}
             possible_challenges={themesData.Theme_1.possible_challenges}
@@ -78,6 +79,7 @@ function Tracks() {
           <Trackk
             index={2}
             icon="🛡️"
+            pslink={themesData.Theme_2.pslink}
             title={themesData.Theme_2.title}
             overview={themesData.Theme_2.overview}
             possible_challenges={themesData.Theme_2.possible_challenges}
@@ -91,6 +93,7 @@ function Tracks() {
           <Trackk
             index={3}
             icon="🌱"
+            pslink={themesData.Theme_3.pslink}
             title={themesData.Theme_3.title}
             overview={themesData.Theme_3.overview}
             possible_challenges={themesData.Theme_3.possible_challenges}
@@ -104,6 +107,7 @@ function Tracks() {
           <Trackk
             index={4}
             icon="💡"
+            pslink={themesData.Theme_4.pslink}
             title={themesData.Theme_4.title}
             overview={themesData.Theme_4.overview}
             possible_challenges={themesData.Theme_4.possible_challenges}
@@ -117,6 +121,7 @@ function Tracks() {
           <Trackk
             index={5}
             icon="♻️"
+            pslink={themesData.Theme_5.pslink}
             title={themesData.Theme_5.title}
             overview={themesData.Theme_5.overview}
             possible_challenges={themesData.Theme_5.possible_challenges}
@@ -130,6 +135,7 @@ function Tracks() {
           <Trackk
             index={6}
             icon="💧"
+            pslink={themesData.Theme_6.pslink}
             title={themesData.Theme_6.title}
             overview={themesData.Theme_6.overview}
             possible_challenges={themesData.Theme_6.possible_challenges}
@@ -143,6 +149,7 @@ function Tracks() {
           <Trackk
             index={7}
             icon="🤖"
+            pslink={themesData.Theme_7.pslink}
             title={themesData.Theme_7.title}
             overview={themesData.Theme_7.overview}
             possible_challenges={themesData.Theme_7.possible_challenges}
@@ -161,6 +168,7 @@ function Trackk({
   index,
   icon,
   title,
+  pslink,
   overview,
   possible_challenges,
   concerned_government_departments,
@@ -169,13 +177,14 @@ function Trackk({
   index: number;
   icon: string;
   title: string;
+  pslink: string;
   overview: string;
   possible_challenges: string[];
   concerned_government_departments: Record<string, string>;
   relevant_links: string[];
 }) {
   return (
-    <div className="flex flex-col bg-white lg:h-[70rem] rounded-lg p-6 transform scale-95 transition-all duration-300 shadow-md cursor-pointer">
+    <div className="flex flex-col bg-white border-2 border-violet-400 text-justify lg:h-[80rem] rounded-lg p-6 transform scale-95 transition-all duration-300 shadow-md cursor-pointer">
       <div className="index text-xl text-indigo-700 font-bold absolute p-5 right-0">
         #SDI-00{index}
       </div>
@@ -247,7 +256,26 @@ function Trackk({
         #{index}/7
       </div>
 
-      <div className="text-center pt-20  text-3xl p-5 font-bold swipe">← SWIPE →</div>
+
+      <div className="text-gray-600 text-sm absolute bottom-20 pb-5">
+        <h3 className="text-lg text-gray-800 mb-2 pr-6">
+          To read more about the theme, click the button below:
+        </h3>
+        <div className="flex gap-4">
+          {/* <a href="/problem-statements">
+            <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
+              Read More
+            </button>
+          </a> */}
+          <a href={`${pslink}`}>
+            <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
+              Download PDF
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div className="text-center pt-40  text-3xl p-5 font-bold swipe">← SWIPE →</div>
     </div>
   );
 }
