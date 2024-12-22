@@ -4,8 +4,6 @@ import dynamic from "next/dynamic";
 import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { desc } from "framer-motion/client";
-import Image from "next/image";
 
 import themesData from "../themes.json";
 
@@ -169,7 +167,7 @@ function Trackk({
   relevant_links,
 }: {
   index: number;
-  icon: any;
+  icon: string;
   title: string;
   overview: string;
   possible_challenges: string[];

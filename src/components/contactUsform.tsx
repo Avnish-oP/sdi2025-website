@@ -15,7 +15,7 @@ const ContactForm = () => {
     message: '',
   });
 
-  const handleChange = (e: { target: { name: any; value: any; }; }) => {
+  const handleChange = (e: { target: { name: string; value: string; }; }) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -39,7 +39,7 @@ const ContactForm = () => {
         setFormStatus({ success: false, message: 'Failed to send message. Please try again later.' });
       }
     } catch (error) {
-      setFormStatus({ success: false, message: 'An error occurred. Please try again later.' });
+      setFormStatus({ success: false, message: `An error occurred ${error} Please try again later.`, });
     }
   };
 
