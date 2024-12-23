@@ -8,7 +8,8 @@ export default function Committee() {
 
       <div className="inner gap-10 flex flex-col md:flex-row justify-center items-center">
         <Card name="Shri Vinai Kumar Saxena" role="Lieutenant Governor, Delhi" image="/images/LG_Sir.jpeg" />
-        <Card name="Prof. (Dr.) Mahesh Verma" role="Vice Chancellor, GGSIPU" image="/images/Vc_sir.jpg" />
+      
+        {/*  <Card name="Prof. (Dr.) Mahesh Verma" role="Vice Chancellor, GGSIPU" image="/images/Vc_sir.jpg" /> */}
       </div>
 
       <hr className="border-1 border-indigo-400 w-[80%] md:w-[70%] mb-10" />
