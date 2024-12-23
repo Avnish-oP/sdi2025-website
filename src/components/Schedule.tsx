@@ -47,7 +47,7 @@ export function HackathonTimeline() {
               </p>
               <div className="">
                 <Image
-                  src="/images/LG_Sir.jpeg"
+                  src="https://placehold.co/500x400"
                   alt="Hackathon Start"
                   width={300}
                   height={500}
@@ -78,7 +78,7 @@ export function HackathonTimeline() {
               </p>
               <div className="4">
                 <Image
-                  src="/images/LG_Sir.jpeg"
+                  src="https://placehold.co/500x400"
                   alt="Hackathon Start"
                   width={300}
                   height={500}
@@ -115,7 +115,7 @@ export function HackathonTimeline() {
               </p>
               <div className="">
                 <Image
-                  src="/images/LG_Sir.jpeg"
+                  src="https://placehold.co/500x400"
                   alt="Hackathon Start"
                   width={300}
                   height={500}
@@ -152,7 +152,7 @@ export function HackathonTimeline() {
               </p>
               <div className="">
                 <Image
-                  src="/images/LG_Sir.jpeg"
+                  src="https://placehold.co/500x400"
                   alt="Hackathon Start"
                   width={300}
                   height={500}

@@ -58,7 +58,7 @@ const Footer = () => {
             <div className="grid grid-cols-3 lg:grid-cols-3 gap-[4px]">
               <div className="flex flex-col items-center justify-center pb-2">
                 <img
-                  src="/images/aboutUs.png"
+                  src="https://placehold.co/80"
                   alt="Partner 1"
                   className="h-20 w-20 mb-2 rounded-full"
                 />
@@ -66,7 +66,7 @@ const Footer = () => {
               </div>
               <div className="flex flex-col items-center justify-center pb-2">
                 <img
-                  src="/images/aboutUs.png"
+                  src="https://placehold.co/80"
                   alt="Partner 2"
                   className=" h-20 w-20 mb-2 rounded-full"
                 />
@@ -75,7 +75,7 @@ const Footer = () => {
 
               <div className="flex flex-col items-center justify-center pb-2">
                 <img
-                  src="/images/aboutUs.png"
+                  src="https://placehold.co/80"
                   alt="Partner 2"
                   className=" h-20 w-20 mb-2 rounded-full"
                 />
@@ -83,7 +83,7 @@ const Footer = () => {
               </div>
               <div className="flex flex-col items-center justify-center pb-2">
                 <img
-                  src="/images/aboutUs.png"
+                  src="https://placehold.co/80"
                   alt="Partner 2"
                   className=" h-20 w-20 mb-2 rounded-full"
                 />
@@ -92,7 +92,7 @@ const Footer = () => {
 
               <div className="flex flex-col items-center justify-center pb-2">
                 <img
-                  src="/images/aboutUs.png"
+                  src="https://placehold.co/80"
                   alt="Partner 2"
                   className=" h-20 w-20 mb-2 rounded-full"
                 />
@@ -100,7 +100,7 @@ const Footer = () => {
               </div>
               <div className="flex flex-col items-center justify-center pb-2">
                 <img
-                  src="/images/aboutUs.png"
+                  src="https://placehold.co/80"
                   alt="Partner 2"
                   className=" h-20 w-20 mb-2 rounded-full"
                 />
