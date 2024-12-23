@@ -57,13 +57,15 @@ const ProblemStatements = () => {
                                 className="h-16 w-16 mb-4"
                                 /> */}
                 <h2 className="text-lg md:text-xl font-bold mb-2 hover:text-indigo-700">{title}</h2>
+                { /*
                 <a
-                  href={/* pdfUrl */}
+                  href={pdfUrl}
                   download
                   className="inline-block bg-indigo-600 w-fit text-white px-4 py-2 rounded hover:bg-indigo-700 transition"
                 >
                   Download PDF
                 </a>
+                */ }
               </div>
               <div className="right md:w-1/5 flex items-center justify-between py-2 md:justify-end">
                 <p className="text-gray-500 text-left md:hidden">ID: {id}</p>
