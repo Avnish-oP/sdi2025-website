@@ -7,9 +7,8 @@ export default function Committee() {
       <h1 className="text-3xl font-bold text-indigo-800 animate__animated animate__fadeIn">Organizing Committee</h1>
 
       <div className="inner gap-10 flex flex-col md:flex-row justify-center items-center">
-        <Card name="Shri Vinai Kumar Saxena" role="Lieutenant Governor, Delhi" image="https://placehold.co/160" />
-        <Card name="Shri Vinai Kumar Saxena" role="Lieutenant Governor, Delhi" image="https://placehold.co/160" />
-        <Card name="Shri Vinai Kumar Saxena" role="Lieutenant Governor, Delhi" image="https://placehold.co/160" />
+        <Card name="Shri Vinai Kumar Saxena" role="Lieutenant Governor, Delhi" image="/images/LG_Sir.jpeg" />
+        <Card name="Prof. (Dr.) Mahesh Verma" role="Vice Chancellor, GGSIPU" image="/images/Vc_sir.jpg" />
       </div>
 
       <hr className="border-1 border-indigo-400 w-[80%] md:w-[70%] mb-10" />

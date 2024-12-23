@@ -46,7 +46,7 @@ export function HackathonTimeline() {
               </p>
               <div className="">
                 <img
-                  src="https://placehold.co/500x400"
+                  src="/images/online_round.jpg"
                   alt="Hackathon Start"
                   width={300}
                   height={500}
@@ -77,7 +77,7 @@ export function HackathonTimeline() {
               </p>
               <div className="4">
                 <img
-                  src="https://placehold.co/500x400"
+                  src="/images/delhi_level_round.png"
                   alt="Hackathon Start"
                   width={300}
                   height={500}
@@ -102,43 +102,43 @@ export function HackathonTimeline() {
             </div>
           ),
         },
-        {
-          title: "Jan 30, 2025",
-          content: (
-            <div>
-              <h1 className="text-indigo-600 text-lg md:text-3xl font-bold antialiased mb-8">
-                Interaction with Officials and Experts
-              </h1>
-              <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
-                In-person through PPT
-              </p>
-              <div className="">
-                <img
-                  src="https://placehold.co/500x400"
-                  alt="Hackathon Start"
-                  width={300}
-                  height={500}
-                  className="rounded-lg object-cover h-48 md:h-44 lg:h-60  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-                />
-              </div>
-              <div className="flex flex-col md:flex-row gap-4">
-                <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
-                  <span className="text-indigo-600 text-xl">Venue: </span> GGSIPU Auditorium at Shahdara Campus
-                </p>
-              </div>
-                <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
-                  <span className="text-indigo-600 text-xl">Jury:</span> Five eminent juries
-                </p>
-              <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
-                10:00 AM - 01:30 PM: Presentations by different teams and mentorship by jury
-                members
-              </p>
-              <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
-                01:30 PM - 02:00 PM: Lunch
-              </p>
-            </div>
-          ),
-        },
+        // {
+        //   title: "Jan 30, 2025",
+        //   content: (
+        //     <div>
+        //       <h1 className="text-indigo-600 text-lg md:text-3xl font-bold antialiased mb-8">
+        //         Interaction with Officials and Experts
+        //       </h1>
+        //       <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
+        //         In-person through PPT
+        //       </p>
+        //       <div className="">
+        //         <img
+        //           src="https://placehold.co/500x400"
+        //           alt="Hackathon Start"
+        //           width={300}
+        //           height={500}
+        //           className="rounded-lg object-cover h-48 md:h-44 lg:h-60  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+        //         />
+        //       </div>
+        //       <div className="flex flex-col md:flex-row gap-4">
+        //         <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
+        //           <span className="text-indigo-600 text-xl">Venue: </span> GGSIPU Auditorium at Shahdara Campus
+        //         </p>
+        //       </div>
+        //         <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
+        //           <span className="text-indigo-600 text-xl">Jury:</span> Five eminent juries
+        //         </p>
+        //       <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
+        //         10:00 AM - 01:30 PM: Presentations by different teams and mentorship by jury
+        //         members
+        //       </p>
+        //       <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
+        //         01:30 PM - 02:00 PM: Lunch
+        //       </p>
+        //     </div>
+        //   ),
+        // },
         {
           title: "Jan 31, 2025",
           content: (
@@ -151,7 +151,7 @@ export function HackathonTimeline() {
               </p>
               <div className="">
                 <img
-                  src="https://placehold.co/300"
+                  src="/images/grand_finale.png"
                   alt="Hackathon Start"
                   width={300}
                   height={500}
