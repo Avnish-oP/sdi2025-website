@@ -17,7 +17,6 @@ export default function Home() {
     </div>
     <div id="schedule"><HackathonTimeline /></div>
     <WhySDISection />
-      {/* <Committee /> */}
     </>
   );
 }
