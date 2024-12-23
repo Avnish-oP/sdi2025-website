@@ -12,7 +12,6 @@ export function HackathonTimeline() {
                 Inauguration Ceremony
               </h1>
               <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
-=======
                 Digital Inauguration by Hon&apos;ble Chancellor, GGSIPU, Delhi
               </p>
               <div className="">
@@ -161,7 +160,6 @@ export function HackathonTimeline() {
               </div>
               <div className="flex flex-col md:flex-row gap-4">
                 <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
-=======
                   <span className="text-indigo-600 text-xl">Venue:</span> Auditorium, GGSIP university,  East Delhi Campus,  Surajmal Vihar, Delhi
                 </p>
               </div>
