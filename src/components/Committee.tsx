@@ -1,7 +1,7 @@
 "use client";
 export default function Committee() {
   return (
-    { /*
+    
     <div className="gap-10 flex flex-col justify-center items-center md:py-18 bg-gradient-to-r from-purple-100 to-pink-200">
       <hr className="border-1 border-indigo-400 w-[80%] md:w-[70%] mt-10" />
 
@@ -16,8 +16,7 @@ export default function Committee() {
 
       <hr className="border-1 border-indigo-400 w-[80%] md:w-[70%] mb-10" />
     </div>
-      */ }
-  );
+      );
 }
 
 function Card({ name, role, image }: { name: string; role: string; image: string }) {
