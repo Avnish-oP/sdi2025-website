@@ -6,7 +6,7 @@ import { FaLinkedin, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
-    <div className="bg-white text-[#C8A26B] py-20 px-4 gilda-display-regular">
+    <div className="bg-white text-indigo-500 py-20 px-4 gilda-display-regular">
       <div className="container mx-auto">
         <motion.h1
           className="text-5xl  text-center mb-10"
@@ -48,38 +48,17 @@ const ContactUs = () => {
           >
             <h2 className="text-3xl  mb-4">Contact Information</h2>
             <p className="mb-4">
-              <strong>Address:</strong> 123 Indiana Street, Merch City, IM 45678
+              <strong>Address:</strong> USDI, GGSIPU-EDC, Surajmal vihar, Delhi
             </p>
             <p className="mb-4">
-              <strong>Phone:</strong> (123) 456-7890
+              <strong>SPOC:</strong> Dr Nikhilesh Sharma
             </p>
             <p className="mb-4">
-              <strong>Email:</strong> info@indianamerchandise.com
+              <strong>Phone:</strong> 9560434006
             </p>
-            <div className="flex space-x-4 mt-4">
-              <a
-                href="https://www.linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#C8A26B] hover:text-[#C8A26B]"
-              >
-                <FaLinkedin size={30} />
-              </a>
-              <a
-                href="https://www.whatsapp.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#C8A26B] hover:text-[#C8A26B]"
-              >
-                <FaWhatsapp size={30} />
-              </a>
-              <a
-                href="mailto:info@indianamerchandise.com"
-                className="text-[#C8A26B] hover:text-[#C8A26B]"
-              >
-                <FaEnvelope size={30} />
-              </a>
-            </div>
+            <p className="mb-4">
+              <strong>Email:</strong> Sdi2025@ipu.ac.in
+            </p>
           </motion.div>
         </div>
 
@@ -92,7 +71,7 @@ const ContactUs = () => {
         >
           <h2 className="text-3xl  text-center mb-4">Our Location</h2>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.9984109919214!2d-122.08385118423891!3d37.3860512798291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb0b5a51b219d%3A0x37ab8e57c1ad7e28!2sGoogleplex!5e0!3m2!1sen!2sus!4v1617134171264!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.8280278268708!2d77.29840397550196!3d28.664867475647174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb2f69c2d037%3A0xd1e30b93ac412f25!2sUniversity%20School%20of%20Automation%20and%20Robotics%20(USAR)!5e0!3m2!1sen!2sin!4v1734937673615!5m2!1sen!2sin"
             width="100%"
             height="450"
             className="rounded-lg shadow-lg"
