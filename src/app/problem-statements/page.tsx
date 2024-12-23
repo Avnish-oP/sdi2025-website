@@ -65,7 +65,7 @@ const ProblemStatements = () => {
                 >
                   Download PDF
                 </a>
-                */ }
+                */}
               </div>
               <div className="right md:w-1/5 flex items-center justify-between py-2 md:justify-end">
                 <p className="text-gray-500 text-left md:hidden">ID: {id}</p>
