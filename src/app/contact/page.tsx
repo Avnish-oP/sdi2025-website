@@ -5,7 +5,7 @@ import ContactForm from "@/components/contactUsform"; // Assuming you have a Con
 
 const ContactUs = () => {
   return (
-    <div className="bg-white text-indigo-500 py-20 px-4 gilda-display-regular">
+    <div className="bg-white text-indigo-500 py-20 pt-28 px-4 gilda-display-regular">
       <div className="container mx-auto">
         <motion.h1
           className="text-5xl  text-center mb-10"

@@ -27,23 +27,23 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#agenda"
+                  href="#themes"
                   className="text-gray-300 hover:text-white transition"
                 >
-                  Agenda
+                  Themes
                 </a>
               </li>
               <li>
                 <a
-                  href="#sponsors"
+                  href="/problem-statements"
                   className="text-gray-300 hover:text-white transition"
                 >
-                  Sponsors
+                  Problem Statements
                 </a>
               </li>
               <li>
                 <a
-                  href="#contact"
+                  href="/contact"
                   className="text-gray-300 hover:text-white transition"
                 >
                   Contact Us
