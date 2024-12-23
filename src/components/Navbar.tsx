@@ -32,7 +32,7 @@ export default function Navbar() {
               (item) => (
                 <Link
                   key={item}
-                  href={item==="Contact Us"?"/contact": item === "Problem Statements"?"/problem-statements": item === "Home"?"/":`#${item.toLowerCase().replace(" ", "-")}`}
+                  href={item==="Contact Us"?"/contact": item === "Problem Statements"?"/problem-statements": item === "Home"?"/":`/#${item.toLowerCase().replace(" ", "-")}`}
                   className="relative text-gray-700 font-medium hover:text-indigo-600 transition duration-300 group"
                 >
                   {item}
