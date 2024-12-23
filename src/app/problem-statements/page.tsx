@@ -7,33 +7,33 @@ const ProblemStatements = () => {
       title:
         "Devising Innovative Solutions to Alleviate Traffic Congestion in Delhi with special focus on parking and traffic rule compliance",
       icon: "🚦",
-      pdfUrl: "ps/Delhi Traffic Congestion_v1.pdf",
+      // pdfUrl: "ps/Delhi Traffic Congestion_v1.pdf",
     },
     {
       id: "SDI002",
       title: "Achieving Zero Waste: Focus on waste segregation at source",
       icon: "♻️",
-      pdfUrl: "ps/Waste segregation at source_v1.pdf",
+      // pdfUrl: "ps/Waste segregation at source_v1.pdf",
     },
     {
       id: "SDI003",
       title:
         "Crafting Sustainable solution for Cleaner, Healthier Air in Delhi",
       icon: "🌱",
-      pdfUrl: "ps/Delhi Air.pdf",
+      // pdfUrl: "ps/Delhi Air.pdf",
     },
     {
       id: "SDI004",
       title: "Maximizing Water Efficiency: Making Every Drop Count in Delhi",
       icon: "💧",
-      pdfUrl: "ps/Delhi Water.pdf",
+      // pdfUrl: "ps/Delhi Water.pdf",
     },
     {
       id: "SDI005",
       title:
         "Creating a Safer Delhi for Women: Strengthening Law and Order for Inclusive Urban Safety",
       icon: "🛡️",
-      pdfUrl: "ps/Women Safety_v1.pdf",
+      // pdfUrl: "ps/Women Safety_v1.pdf",
     },
   ];
 
@@ -44,7 +44,7 @@ const ProblemStatements = () => {
           Problem Statements
         </h1>
         <div className="flex flex-col gap-5">
-          {problemStatements.map(({ id, title, icon, pdfUrl }) => (
+          {problemStatements.map(({ id, title, icon}) => (
               <div
               key={id}
               className="bg-white shadow-md rounded-lg p-6 flex flex-col-reverse md:flex-row hover:shadow-lg transition"
@@ -57,15 +57,13 @@ const ProblemStatements = () => {
                                 className="h-16 w-16 mb-4"
                                 /> */}
                 <h2 className="text-lg md:text-xl font-bold mb-2 hover:text-indigo-700">{title}</h2>
-                { /*
-                <a
+                {/* <a
                   href={pdfUrl}
                   download
-                  className="inline-block bg-indigo-600 w-fit text-white px-4 py-2 rounded hover:bg-indigo-700 transition"
+                  className="inline-block hidden bg-indigo-600 w-fit text-white px-4 py-2 rounded hover:bg-indigo-700 transition"
                 >
                   Download PDF
-                </a>
-                */}
+                </a> */}
               </div>
               <div className="right md:w-1/5 flex items-center justify-between py-2 md:justify-end">
                 <p className="text-gray-500 text-left md:hidden">ID: {id}</p>

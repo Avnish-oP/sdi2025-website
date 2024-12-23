@@ -65,7 +65,7 @@ export default function HeroSection() {
             Youth For Change
           </p>
           <div className="mt-6 flex justify-center md:justify-start gap-4">
-            <Link href="/">
+            <Link href="https://dorahacks.io/hackathon/sdi2025">
             <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
               Register Now
             </button>

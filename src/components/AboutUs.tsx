@@ -43,7 +43,7 @@ export default function AboutUs() {
                   View Problem Statements
                 </button>
               </Link>
-              <Link href="/">
+              <Link href="https://dorahacks.io/hackathon/sdi2025">
                 <button className="px-6 py-3 bg-white text-gray-800 font-bold rounded-lg shadow-md border border-gray-300 hover:bg-gray-200 transition">
                   Register Now
                 </button>
