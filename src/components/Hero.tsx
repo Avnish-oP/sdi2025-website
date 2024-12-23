@@ -62,7 +62,7 @@ export default function HeroSection() {
             Smart Delhi Ideathon 2025
           </h1>
           <p className="text-gray-100 text-lg mt-4">
-            Reinventing Delhi with Tech and Creativity
+            Youth For Change
           </p>
           <div className="mt-6 flex justify-center md:justify-start gap-4">
             <Link href="/">
