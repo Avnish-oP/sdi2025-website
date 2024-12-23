@@ -8,7 +8,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white shadow-xl fixed w-full z-30 transition-all duration-300">
-      <div className="lg:max-w-[80%] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="lg:max-w-[80%] mx-auto px-4 sm:px lg:px-8">
         <div className="flex justify-between h-20 items-center">
           {/* Logo */}
           <div className="flex md:gap-5">
