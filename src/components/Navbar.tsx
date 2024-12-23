@@ -8,10 +8,10 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white shadow-xl fixed w-full z-30 transition-all duration-300">
-      <div className="max-w-[80%] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="lg:max-w-[80%] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
           {/* Logo */}
-          <div className="flex gap-5">
+          <div className="flex md:gap-5">
             <Link
               href="http://www.ipu.ac.in/"
               target="_blank"
@@ -41,7 +41,7 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
-            {["Home", "About", "Themes", "Problem Statements", "FAQ", "Contact Us"].map(
+            {["Home", "About", "Themes", "Problem Statements", "Contact Us"].map(
               (item) => (
                 <Link
                   key={item}
@@ -92,7 +92,7 @@ export default function Navbar() {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden mt- flex flex-col gap-2 space-y-4 pb-10">
-            {["Home", "About", "Themes", "Problem Statements", "FAQ", "Contact Us"].map(
+            {["Home", "About", "Themes", "Problem Statements", "Contact Us"].map(
               (item) => (
                 <Link
                   key={item}
