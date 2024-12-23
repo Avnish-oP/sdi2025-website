@@ -2,7 +2,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ContactForm from "@/components/contactUsform"; // Assuming you have a ContactForm component
-import { FaLinkedin, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 const ContactUs = () => {
   return (

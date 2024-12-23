@@ -25,7 +25,7 @@ export default function AboutUs() {
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
               <span className="font-bold text-gray-800">Smart Delhi Ideathon (SDI 2025)</span> is a platform for students to contribute their 
-              <span className="text-indigo-600"> “Scientific Social Responsibility”</span>, tackling Delhi’s urban challenges while meeting the UN's 
+              <span className="text-indigo-600"> “Scientific Social Responsibility”</span>, tackling Delhi’s urban challenges while meeting the UN&apos;s 
               <span className="text-indigo-600"> Sustainable Development Goal 11: Sustainable Cities and Communities</span>.
             </p>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">

@@ -16,7 +16,7 @@ export function HackathonTimeline() {
                 Digital Inauguration by Hon&apos;ble Lieutenant Governor of GNCT of Delhi
               </p>
               <div className="">
-                <Image
+                <img
                   src="/images/LG_Sir.jpeg"
                   alt="Hackathon Start"
                   width={300}
@@ -46,7 +46,7 @@ export function HackathonTimeline() {
                 Online Submission (For more details, refer to competition link…)
               </p>
               <div className="">
-                <Image
+                <img
                   src="https://placehold.co/500x400"
                   alt="Hackathon Start"
                   width={300}
@@ -77,7 +77,7 @@ export function HackathonTimeline() {
                 In-person through PPT
               </p>
               <div className="4">
-                <Image
+                <img
                   src="https://placehold.co/500x400"
                   alt="Hackathon Start"
                   width={300}
@@ -114,7 +114,7 @@ export function HackathonTimeline() {
                 In-person through PPT
               </p>
               <div className="">
-                <Image
+                <img
                   src="https://placehold.co/500x400"
                   alt="Hackathon Start"
                   width={300}
@@ -151,8 +151,8 @@ export function HackathonTimeline() {
                 In-person event
               </p>
               <div className="">
-                <Image
-                  src="https://placehold.co/500x400"
+                <img
+                  src="https://placehold.co/300"
                   alt="Hackathon Start"
                   width={300}
                   height={500}

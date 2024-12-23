@@ -58,7 +58,7 @@ const Footer = () => {
             <div className="grid grid-cols-3 lg:grid-cols-3 gap-[4px]">
               <div className="flex flex-col items-center justify-center pb-2">
                 <img
-                  src="https://placehold.co/80"
+                  src="/images/iPCA.png"
                   alt="Partner 1"
                   className="h-20 w-20 mb-2 rounded-full"
                 />
@@ -75,7 +75,7 @@ const Footer = () => {
 
               <div className="flex flex-col items-center justify-center pb-2">
                 <img
-                  src="https://placehold.co/80"
+                  src="/images/IPU IIF.png"
                   alt="Partner 2"
                   className=" h-20 w-20 mb-2 rounded-full"
                 />
@@ -83,16 +83,16 @@ const Footer = () => {
               </div>
               <div className="flex flex-col items-center justify-center pb-2">
                 <img
-                  src="https://placehold.co/80"
+                  src="/images/IDEA.png"
                   alt="Partner 2"
-                  className=" h-20 w-20 mb-2 rounded-full"
+                  className=" h-20 w-20 mb-2 object-cover rounded-full"
                 />
                 <p>Training Partner</p>
               </div>
 
               <div className="flex flex-col items-center justify-center pb-2">
                 <img
-                  src="https://placehold.co/80"
+                  src="/images/ACM.jpg"
                   alt="Partner 2"
                   className=" h-20 w-20 mb-2 rounded-full"
                 />
@@ -100,7 +100,7 @@ const Footer = () => {
               </div>
               <div className="flex flex-col items-center justify-center pb-2">
                 <img
-                  src="https://placehold.co/80"
+                  src="/images/IEEE.jpeg"
                   alt="Partner 2"
                   className=" h-20 w-20 mb-2 rounded-full"
                 />
