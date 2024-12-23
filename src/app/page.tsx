@@ -3,7 +3,7 @@ import HeroSection from "@/components/Hero";
 import { HackathonTimeline } from "@/components/Schedule";
 // import  Themes  from "@/components/Themes";
 // import WhySDISection from "@/components/Why";
-import Committee from "@/components/Committee";
+// import Committee from "@/components/Committee";
 import Tracks from "@/components/Tracks";
 
 export default function Home() {
