@@ -55,56 +55,48 @@ const Footer = () => {
           {/* {collaborators} */}
           <div className="flex flex-col items-center col-span-2 text-sm text-center">
             <h3 className="text-xl font-bold mb-4">Collaborators</h3>
-            <div className="grid grid-cols-3 lg:grid-cols-3 gap-[4px]">
+            <div className="flex flex-wrap justify-center items-center gap-[16px]">
               <div className="flex flex-col items-center justify-center pb-2">
                 <img
                   src="/images/iPCA.png"
                   alt="Partner 1"
-                  className="h-20 w-20 mb-2 rounded-full"
+                  className="h-16 w-16 mb-2 rounded-full"
                 />
-                <p>Industry Partner</p>
-              </div>
-              <div className="flex flex-col items-center justify-center pb-2">
-                <img
-                  src="https://placehold.co/80"
-                  alt="Partner 2"
-                  className=" h-20 w-20 mb-2 rounded-full"
-                />
-                <p>Knowledge Partner</p>
+                <p className="text-xs">Industry Partner</p>
               </div>
 
               <div className="flex flex-col items-center justify-center pb-2">
                 <img
                   src="/images/IPU IIF.png"
                   alt="Partner 2"
-                  className=" h-20 w-20 mb-2 rounded-full"
+                  className=" h-16 w-16 mb-2 rounded-full"
                 />
-                <p>Startup Collaborator</p>
+                <p className="text-xs">Startup Collaborator</p>
               </div>
               <div className="flex flex-col items-center justify-center pb-2">
                 <img
                   src="/images/IDEA.png"
                   alt="Partner 2"
-                  className=" h-20 w-20 mb-2 object-cover rounded-full"
+                  className=" h-16 w-16 mb-2 object-cover rounded-full"
                 />
-                <p>Training Partner</p>
+                <p className="text-xs">Training Partner</p>
               </div>
 
               <div className="flex flex-col items-center justify-center pb-2">
                 <img
                   src="/images/ACM.jpg"
                   alt="Partner 2"
-                  className=" h-20 w-20 mb-2 rounded-full"
+                  className=" h-16 w-16 mb-2 rounded-full"
                 />
-                <p>ACM Student Chapter</p>
+                <p className="text-xs">ACM Student Chapter</p>
               </div>
               <div className="flex flex-col items-center justify-center pb-2">
                 <img
                   src="/images/IEEE.jpeg"
                   alt="Partner 2"
-                  className=" h-20 w-20 mb-2 rounded-full"
+                  className=" h-16 w-16 mb-2 rounded-full"
                 />
-                <p>IEEE GGSIPU</p>
+                <p className="text-xs">IEEE GGSIPU</p>
               </div>
             </div>
 
@@ -130,32 +122,10 @@ const Footer = () => {
                 href="tel:+911234567890"
                 className="text-gray-300 hover:text-white transition"
               >
-                +91 12345 67890
+                +91 9560434006
               </a>
             </p>
-            <div className="flex mt-6 gap-4">
-              <a
-                href="#"
-                className="w-8 h-8 flex items-center justify-center rounded-full bg-indigo-800 hover:bg-indigo-600 transition"
-                title="Twitter"
-              >
-                🐦
-              </a>
-              <a
-                href="#"
-                className="w-8 h-8 flex items-center justify-center rounded-full bg-indigo-800 hover:bg-indigo-600 transition"
-                title="LinkedIn"
-              >
-                🔗
-              </a>
-              <a
-                href="#"
-                className="w-8 h-8 flex items-center justify-center rounded-full bg-indigo-800 hover:bg-indigo-600 transition"
-                title="Instagram"
-              >
-                📸
-              </a>
-            </div>
+            
           </div>
 
 
