@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Smart Delhi Ideathon",
-  description: "Crafting innovative solutions for Delhi's urban challenges.",
+  description: "Reinventing Delhi with Tech and Creativity",
   icons: {
     icon: "/logo.png",
   },
