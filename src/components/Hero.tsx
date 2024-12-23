@@ -8,7 +8,7 @@ export default function HeroSection() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url('/images/hero.png')`, // Replace with your image path
+          backgroundImage: `url('/images/campus.jpeg')`, // Replace with your image path
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -65,9 +65,11 @@ export default function HeroSection() {
             Reinventing Delhi with Tech and Creativity
           </p>
           <div className="mt-6 flex justify-center md:justify-start gap-4">
+            <Link href="/">
             <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
               Register Now
             </button>
+            </Link>
             <Link href="/#about">
             <button className="px-6 py-3 bg-white text-gray-800 font-bold rounded-lg shadow-md hover:bg-gray-300 transition">
               Learn More

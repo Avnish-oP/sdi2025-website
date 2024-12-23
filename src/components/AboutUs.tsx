@@ -30,7 +30,7 @@ export default function AboutUs() {
             </p>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
               Participants will work on issues like <span className="font-bold text-gray-800">air pollution, traffic management, waste processing, 
-              women&apos;s safety</span>, and <span className="font-bold text-gray-800">economic development</span>, using technologies like 
+              women&apos;s safety</span>, and <span className="font-bold text-gray-800">water</span>, using technologies like 
               <span className="text-indigo-600"> AI</span> to build scalable, impactful solutions.
             </p>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
@@ -43,7 +43,7 @@ export default function AboutUs() {
                   View Problem Statements
                 </button>
               </Link>
-              <Link href="/register">
+              <Link href="/">
                 <button className="px-6 py-3 bg-white text-gray-800 font-bold rounded-lg shadow-md border border-gray-300 hover:bg-gray-200 transition">
                   Register Now
                 </button>

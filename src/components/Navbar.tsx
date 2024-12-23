@@ -8,10 +8,23 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white shadow-xl fixed w-full z-30 transition-all duration-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16 items-center">
+      <div className="max-w-[80%] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between h-20 items-center">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex gap-5">
+            <Link
+              href="http://www.ipu.ac.in/"
+              target="_blank"
+              className="text-2xl font-extrabold text-indigo-600 hover:text-indigo-800 transition duration-300"
+            >
+              {/* <Image src="/logo.png" width={70} height={70} quality={100} className="h-12 w-auto" alt="logo" /> */}
+              <img
+                src="/images/ipulogo.png" // Replace with your illustration path
+                alt="Smart Delhi Ideathon"
+                className="p-1 h-20"
+              />
+
+            </Link>
             <Link
               href="/"
               className="text-2xl font-extrabold text-indigo-600 hover:text-indigo-800 transition duration-300"
@@ -20,7 +33,7 @@ export default function Navbar() {
               <img
                 src="/logo.png" // Replace with your illustration path
                 alt="Smart Delhi Ideathon"
-                className="p-1 h-16"
+                className="p-1 h-20"
               />
 
             </Link>
