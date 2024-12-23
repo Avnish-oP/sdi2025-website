@@ -7,7 +7,7 @@ export default function Committee() {
       <h1 className="text-3xl font-bold text-indigo-800 animate__animated animate__fadeIn">Organizing Committee</h1>
 
       <div className="inner gap-10 flex flex-col md:flex-row justify-center items-center">
-=======
+
         <Card name="Shri Vinai Kumar Saxena" role="Hon'ble chancellor, GGSIPU, Delhi" image="/images/LG_Sir.jpeg" />
       
         {/*  <Card name="Prof. (Dr.) Mahesh Verma" role="Vice Chancellor, GGSIPU" image="/images/Vc_sir.jpg" /> */}
