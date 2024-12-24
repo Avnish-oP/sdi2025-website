@@ -38,10 +38,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     >
       <div className="max-w-7xl mx-auto py-10 px-4 md:px-8 lg:px-10">
         <h2 className="text-3xl md:text-5xl mb-4 font-bold hover:text-indigo-700 text-black max-w-4xl">
-          Hackathon&apos;s Timeline
+          Ideathon&apos;s Timeline
         </h2>
         <p className="text-neutral-700  text-lg md:text-xl max-w-sm">
-            Here is the timeline of the hackathon. Stay tuned for more updates.
+            Here is the timeline of the Ideathon. Stay tuned for more updates.
         </p>
       </div>
 
