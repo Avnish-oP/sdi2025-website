@@ -198,33 +198,33 @@ const problemStatements = [
     title:
       "Devising Innovative Solutions to Alleviate Traffic Congestion in Delhi with special focus on parking and traffic rule compliance",
     icon: "🚦",
-    pdfUrl: "ps/Delhi Traffic Congestion_v1.pdf",
+    pdfUrl: "ps/Delhi Traffic Congestion_v2.pdf",
   },
   {
     id: "SDI002",
     title: "Achieving Zero Waste: Focus on waste segregation at source",
     icon: "♻️",
-    pdfUrl: "ps/Waste segregation at source_v1.pdf",
+    pdfUrl: "ps/Waste segregation at source_v2.pdf",
   },
   {
     id: "SDI003",
     title:
       "Crafting Sustainable solution for Cleaner, Healthier Air in Delhi",
     icon: "🌱",
-    pdfUrl: "ps/Delhi Air.pdf",
+    pdfUrl: "ps/Delhi Air_V2.pdf",
   },
   {
     id: "SDI004",
     title: "Maximizing Water Efficiency: Making Every Drop Count in Delhi",
     icon: "💧",
-    pdfUrl: "ps/Delhi Water.pdf",
+    pdfUrl: "ps/Delhi Water_v2.pdf",
   },
   {
     id: "SDI005",
     title:
       "Creating a Safer Delhi for Women: Strengthening Law and Order for Inclusive Urban Safety",
     icon: "🛡️",
-    pdfUrl: "ps/Women Safety_v1.pdf",
+    pdfUrl: "ps/Women Safety_v3.pdf",
   },
 ];
 
@@ -269,7 +269,7 @@ const Tracks = () => {
   return (
     <div className="slider-container overflow-hidden py-16 md:py-20 bg-gradient-to-r from-purple-100 to-pink-200 md:p-10 mx-auto">
       <h2 className="text-4xl text-center font-bold text-indigo-800 mb-2 animate__animated animate__fadeIn">
-        Problem Statements
+        Hackathon Themes
       </h2>
       <p className="text-gray-600 text-center text-lg px-5 pb-10 pt-5 animate__animated animate__fadeIn animate__delay-1s">
         Explore the diverse themes designed to address Delhi’s pressing urban
@@ -289,6 +289,11 @@ const Tracks = () => {
           </div>
         ))}
       </Slider>
+
+
+      <div className="pspage text-center mt-20">
+        <Link href="/problem-statements" className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">View All PS</Link>
+      </div>
     </div>
   );
 };
@@ -329,16 +334,16 @@ function TrackCard({
           To read more about the theme, click the button below:
         </h3>
         <div className="flex gap-4">
-          <Link href="/problem-statements">
+          <Link href={`${pslink}`}>
             <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
               Read More
             </button>
           </Link>
-          <Link href={pslink}>
-            <button className="px-6 hidden py-3 bg-gray-100 border text-gray-800 font-bold rounded-lg shadow-md hover:bg-gray-300 transition">
+          <a href={pslink} download>
+            <button className="px-6 py-3 bg-gray-100 border text-gray-800 font-bold rounded-lg shadow-md hover:bg-gray-300 transition">
               Download PDF
             </button>
-          </Link>
+          </a>
         </div>
       </div>
 
