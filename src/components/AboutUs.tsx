@@ -8,7 +8,7 @@ export default function AboutUs() {
           {/* Left Section: Image or Illustration */}
           <div className="w-full md:w-[40%] relative">
             <img
-              src="/images/aboutUs.png" // Replace with your illustration path
+              src="/images/about.jpg" // Replace with your illustration path
               alt="Smart Delhi Ideathon"
               className="w-full max-w-md mx-auto md:max-w-none md:mx-0 transform hover:scale-[103%] transition duration-300 rounded-lg shadow-lg"
             />
