@@ -12,50 +12,14 @@ export default function HeroSection() {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          filter: "blur(2px) brightness(0.9) saturate(1.2)", // Apply blur, brightness, and saturation
+          filter: "blur(2px) brightness(1.1) saturate(1.8)", // Apply blur, brightness, and saturation
         }}
       ></div>
 
       {/* Background Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-t from-indigo-700 via-transparent to-indigo-900 opacity-70 z-0"></div>
 
-      {/* Decorative Background Elements */}
-      {/* <div className="absolute inset-0 z-10 pointer-events-none">
-        <svg
-          className="absolute top-10 left-10 w-32 h-32 text-indigo-200 opacity-50"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 100 100"
-          fill="none"
-        >
-          <circle cx="50" cy="50" r="48" stroke="currentColor" strokeWidth="2" />
-        </svg>
-        <svg
-          className="absolute bottom-10 right-20 w-40 h-40 text-indigo-300 opacity-40"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 100 100"
-          fill="none"
-        >
-          <path
-            d="M10 10 L90 10 L90 90 L10 90 Z"
-            stroke="currentColor"
-            strokeWidth="1"
-          />
-        </svg>
-        <svg
-          className="absolute top-1/3 right-16 w-24 h-24 text-gray-300 opacity-30"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 100 100"
-          fill="none"
-        >
-          <polygon
-            points="50,10 90,90 10,90"
-            stroke="currentColor"
-            strokeWidth="1"
-          />
-        </svg>
-      </div> */}
-
-      <div className="container z-20 mt-10 mx-auto flex flex-col md:flex-row gap-8 items-center justify-between px-4 lg:px-8">
+      <div className="container z-20 mt-24 md:mt-10 mx-auto flex flex-col md:flex-row gap-10 md:gap-20 items-center justify-between px-4 lg:px-0">
         {/* Left Section: Event Info */}
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mt-2 leading-tight ANTI">
@@ -66,9 +30,9 @@ export default function HeroSection() {
           </p>
           <div className="mt-6 flex justify-center md:justify-start gap-4">
             <Link href="https://dorahacks.io/hackathon/sdi2025">
-            <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
-              Register Now
-            </button>
+              <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
+                Register Now
+              </button>
             </Link>
             <Link href="/#about">
               <button className="px-6 py-3 bg-white text-gray-800 font-bold rounded-lg shadow-md hover:bg-gray-300 transition">
@@ -76,30 +40,33 @@ export default function HeroSection() {
               </button>
             </Link>
           </div>
+
+          {/* LG Trophy Section */}
+          <div className="mt-10 -mb-12 p-6 bg-white bg-opacity-90 rounded-lg shadow-lg">
+            <h2 className="text-2xl font-bold text-indigo-800 flex items-center gap-2">
+              <span>🏆</span> LG Trophy
+            </h2>
+            <div className="mt-4 space-y-3">
+              <div className="flex justify-between items-center">
+                <span className="text-lg font-semibold text-gray-700">First Prize</span>
+                <span className="text-xl font-bold text-indigo-900">₹5,00,000</span>
+              </div>
+              <div className="flex justify-between items-center">
+                <span className="text-lg font-semibold text-gray-700">Second Prize</span>
+                <span className="text-xl font-bold text-indigo-900">₹3,00,000</span>
+              </div>
+              <div className="flex justify-between items-center">
+                <span className="text-lg font-semibold text-gray-700">Third Prize</span>
+                <span className="text-xl font-bold text-indigo-900">₹1,00,000</span>
+              </div>
+              
+            </div>
+          </div>
         </div>
 
         {/* Right Section: Carousel */}
-        <div className="w-full md:w-1/2 mt-8 md:mt-0">
+        <div className="w-full md:w-1/2 mt-10  md:mt-16">
           <HeroCarousel />
-        </div>
-      </div>
-
-      {/* Bar Below Hero Section */}
-      <div className="absolute bottom-0 w-full bg-white bg-opacity-90 shadow-lg py-4 z-30">
-        <div className="container mx-auto px-6 lg:px-16 flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
-          <div className="flex items-center gap-2 text-lg font-semibold text-indigo-800">
-            <span>🏆</span>
-            <span className="text-indigo-900 font-bold">LG Trophy</span>: First Prize ₹5,00,000
-          </div>
-          <div className="flex items-center gap-2 text-lg font-semibold text-indigo-800">
-            <span>🥈</span> Second Prize ₹3,00,000
-          </div>
-          <div className="flex items-center gap-2 text-lg font-semibold text-indigo-800">
-            <span>🥉</span> Third Prize ₹1,00,000
-          </div>
-          <div className="flex items-center gap-2 text-lg font-semibold text-indigo-800">
-            <span>🎓</span> Special Recognition Awards
-          </div>
         </div>
       </div>
     </section>
