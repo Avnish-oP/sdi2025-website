@@ -89,7 +89,7 @@ export default function HeroSection() {
         <div className="container mx-auto px-6 lg:px-16 flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
           <div className="flex items-center gap-2 text-lg font-semibold text-indigo-800">
             <span>🏆</span>
-            <span className="text-indigo-900 font-bold">LG Cup</span>: First Prize ₹5,00,000
+            <span className="text-indigo-900 font-bold">LG Trophy</span>: First Prize ₹5,00,000
           </div>
           <div className="flex items-center gap-2 text-lg font-semibold text-indigo-800">
             <span>🥈</span> Second Prize ₹3,00,000
