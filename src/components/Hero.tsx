@@ -19,7 +19,7 @@ export default function HeroSection() {
       {/* Background Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-t from-indigo-700 via-transparent to-indigo-900 opacity-70 z-0"></div>
 
-      <div className="container z-20 mt-24 md:mt-10 mx-auto flex flex-col md:flex-row gap-10 md:gap-20 items-center justify-between px-4 lg:px-0">
+      <div className="container z-20 mt-24 md:mt-0 mx-auto flex flex-col md:flex-row gap-10 md:gap-20 items-center justify-between px-4 lg:px-0">
         {/* Left Section: Event Info */}
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight ANTI">
