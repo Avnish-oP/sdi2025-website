@@ -32,7 +32,7 @@ export default function HeroCarousel() {
   }, []);
 
   return (
-    <div className="relative w-full h-96 md:h-[20rem] lg:h-[32rem] flex items-center justify-center overflow-hidden rounded-xl shadow-lg">
+    <div className="relative w-full h-72 md:h-[20rem] lg:h-[28rem] flex items-center justify-center overflow-hidden rounded-xl shadow-lg">
       {/* Background Images with Parallax Effect */}
       {carouselItems.map((item, index) => (
         <div
