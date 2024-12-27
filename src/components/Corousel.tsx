@@ -55,7 +55,7 @@ export default function HeroCarousel() {
       ))}
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-gray-900/70 via-gray-900/40 to-transparent z-20"></div>
+      <div className="absolute inset-0 z-20"></div>
 
       {/* Slide Content */}
       <div className="relative top-1/4 z-30 w-3/4 text-center text-white">
