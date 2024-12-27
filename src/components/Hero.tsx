@@ -66,9 +66,9 @@ export default function HeroSection() {
           </p>
           <div className="mt-6 flex justify-center md:justify-start gap-4">
             <Link href="https://dorahacks.io/hackathon/sdi2025">
-              <button className="px-6 py-3 bg-yellow-500 text-white font-bold rounded-lg shadow-md hover:bg-yellow-600 transition">
-                Register Now
-              </button>
+            <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
+              Register Now
+            </button>
             </Link>
             <Link href="/#about">
               <button className="px-6 py-3 bg-white text-gray-800 font-bold rounded-lg shadow-md hover:bg-gray-300 transition">
