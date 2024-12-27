@@ -48,15 +48,15 @@ export default function HeroSection() {
             </h2>
             <div className="mt-4 space-y-3">
               <div className="flex justify-between items-center">
-                <span className="text-lg font-semibold text-gray-700">First Prize</span>
+                <span className="text-lg font-semibold text-gray-700">🥇First Prize</span>
                 <span className="text-xl font-bold text-indigo-900">₹5,00,000</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-lg font-semibold text-gray-700">Second Prize</span>
+                <span className="text-lg font-semibold text-gray-700">🥈Second Prize</span>
                 <span className="text-xl font-bold text-indigo-900">₹3,00,000</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-lg font-semibold text-gray-700">Third Prize</span>
+                <span className="text-lg font-semibold text-gray-700">🥉Third Prize</span>
                 <span className="text-xl font-bold text-indigo-900">₹1,00,000</span>
               </div>
               
