@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen max-h-screen flex justify-center items-center bg-gradient-to-r from-blue-100 via-purple-50 to-indigo-100 py-16 md:py-24 overflow-hidden">
+    <section className="relative min-h-screen flex justify-center items-center bg-gradient-to-r from-blue-100 via-purple-50 to-indigo-100 py-5 md:py-24 overflow-hidden">
       {/* Background Image */}
       <div
         className="absolute inset-0 z-0"
@@ -22,14 +22,14 @@ export default function HeroSection() {
       <div className="container z-20 mt-24 md:mt-10 mx-auto flex flex-col md:flex-row gap-10 md:gap-20 items-center justify-between px-4 lg:px-0">
         {/* Left Section: Event Info */}
         <div className="w-full md:w-1/2 text-center md:text-left">
-          <h1 className="text-4xl md:text-6xl font-extrabold text-white mt-2 leading-tight ANTI">
+          <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight ANTI">
             Smart Delhi Ideathon 2025
           </h1>
           <p className="text-indigo-200 text-xl mt-4 font-bold antialiased">
             Innovating for Sustainable Cities and Communities
           </p>
           <div className="mt-6 flex justify-center md:justify-start gap-4">
-            <Link href="https://dorahacks.io/hackathon/sdi2025">
+            <Link href="/" target="_blank">
               <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
                 Register Now
               </button>
