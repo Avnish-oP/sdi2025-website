@@ -57,7 +57,7 @@ const ProblemStatements = () => {
                                 className="h-16 w-16 mb-4"
                                 /> */}
                 <h2 className="text-lg md:text-xl font-bold mb-2 hover:text-indigo-700">{title}</h2>
-                <div className="links flex gap-5">
+                <div className="links flex gap-3 md:gap-5 bg-pink-600 w-[125%] md:w-auto">
                 <a
                   href={pdfUrl}
                   className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition"
@@ -67,7 +67,7 @@ const ProblemStatements = () => {
                 <a
                   href={pdfUrl}
                   download
-                  className="px-6 py-3 bg-gray-100 border text-gray-800 font-bold rounded-lg shadow-md hover:bg-gray-300 transition"
+                  className="px-6 py-3 bg-gray-100 hidden md:block border text-gray-800 font-bold rounded-lg shadow-md hover:bg-gray-300 transition"
                 >
                   Download PDF
                 </a>
