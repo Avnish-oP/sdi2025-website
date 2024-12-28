@@ -73,7 +73,7 @@ const ProblemStatements = () => {
                 </a>
                 <a
                   href={`https://register.sdi2025.in/${id}`}
-                  download
+                  target="_blank"
                   className="px-6 py-3 bg-gray-100 border text-gray-800 font-bold rounded-lg shadow-md hover:bg-gray-300 transition"
                 >
                   Register Now
