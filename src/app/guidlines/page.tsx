@@ -42,7 +42,7 @@ export default function Guidelines() {
                 </li>
                 <li>
                   <strong>Submission Requirements:</strong> Upload the YouTube
-                  video link (set as "unlisted") via the provided link on the
+                  video link (set as &quot;unlisted&quot;) via the provided link on the
                   website.
                 </li>
               </ul>
@@ -103,7 +103,7 @@ export default function Guidelines() {
                 </li>
                 <li>
                   <strong>Socio-Political Desirability:</strong> Align with Delhi
-                  citizens' needs, values, and sentiments.
+                  citizen&apos;s needs, values, and sentiments.
                 </li>
                 <li>
                   <strong>Scalability:</strong> Design solutions for broader

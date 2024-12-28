@@ -17,7 +17,7 @@ const faqs = [
   { question: "How many entries can an institution submit per theme?", answer: "Each institution can submit a maximum of two entries per theme, finalized through an internal screening process." },
   { question: "How are submissions made?", answer: "All submissions must be uploaded by the institution’s designated Single Point of Contact (SPOC) via the official competition portal." },
   { question: "How many members are allowed in a team?", answer: "Each team must consist of three to five members, all from the same college." },
-  { question: "What are the themes for the challenge?", answer: "The themes focus on addressing Delhi's urban challenges: Traffic Management, Zero Waste, Cleaner Air, Water Efficiency, and Women’s Safety." },
+  { question: "What are the themes for the challenge?", answer: "The themes focus on addressing Delhi&apos;s urban challenges: Traffic Management, Zero Waste, Cleaner Air, Water Efficiency, and Women’s Safety." },
   { question: "Can a single submission address multiple themes?", answer: "Submissions should primarily focus on one theme to maintain clarity and relevance, but interdisciplinary approaches are welcome if they enhance the solution." },
   { question: "What are the awards for the winners?", answer: "The winners will receive a trophy, a certificate of achievement, ₹5 Lacs cash prize, and the opportunity to implement the solution with funding and mentorship." },
   { question: "What do the first and second runner-ups receive?", answer: "First Runner-Up and Second Runner-Up will receive a trophy, Certificate of Excellence, and cash prizes of ₹3 Lacs and ₹1 Lac, respectively." },
