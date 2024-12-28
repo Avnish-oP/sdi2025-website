@@ -1,6 +1,6 @@
 "use client"
 import Link from "next/link";
-import { toast, ToastContainer } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
 
 
 export default function AboutUs() {
