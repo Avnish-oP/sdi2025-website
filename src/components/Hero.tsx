@@ -1,10 +1,10 @@
 "use client"
 import HeroCarousel from "./Corousel"; // Import the Carousel Component
 import Link from 'next/link';
-import { ToastContainer, toast } from "react-toastify";
+// import { ToastContainer, toast } from "react-toastify";
 
 export default function HeroSection() {
-  const notify = () => toast("Resistration will be open soon");
+  // const notify = () => toast("Resistration will be open soon");
 
 
   return (
@@ -34,7 +34,8 @@ export default function HeroSection() {
             Innovating for Sustainable Cities and Communities
           </p>
           <div className="mt-6 flex justify-center md:justify-start gap-4">
-            <Link href="#" onClick={notify} >
+            {/* <Link href="#" onClick={notify} > */}
+            <Link href="https://register.sdi2025.in/" target="_blank">
               <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
                 Register Now
               </button>
@@ -74,7 +75,7 @@ export default function HeroSection() {
           <HeroCarousel />
         </div>
       </div>
-      <ToastContainer  theme="dark" position="bottom-center" />
+      {/* <ToastContainer  theme="dark" position="bottom-center" /> */}
     </section>
   );
 }

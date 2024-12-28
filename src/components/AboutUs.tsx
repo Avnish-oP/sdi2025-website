@@ -1,6 +1,6 @@
 "use client"
 import Link from "next/link";
-import { ToastContainer, toast } from "react-toastify";
+// import { ToastContainer, toast } from "react-toastify";
 
 
 export default function AboutUs() {
@@ -46,7 +46,8 @@ export default function AboutUs() {
                   View Problem Statements
                 </button>
               </Link>
-              <Link href="/" onClick={() => toast("Registration will be open soon")}>
+              {/* <Link href="/" onClick={() => toast("Registration will be open soon")}> */}
+              <Link href="https://register.sdi2025.in/" target="_blank">
                 <button className="px-6 py-3 bg-white text-gray-800 font-bold rounded-lg shadow-md border border-gray-300 hover:bg-gray-200 transition">
                   Register Now
                 </button>
@@ -55,7 +56,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-      <ToastContainer theme="dark" position="bottom-center" />
+      {/* <ToastContainer theme="dark" position="bottom-center" /> */}
     </section>
   );
 }
