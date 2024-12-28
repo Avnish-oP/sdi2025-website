@@ -1,7 +1,12 @@
+"use client"
 import HeroCarousel from "./Corousel"; // Import the Carousel Component
 import Link from 'next/link';
+import { ToastContainer, toast } from "react-toastify";
 
 export default function HeroSection() {
+  const notify = () => toast("Resistration will be open soon");
+
+
   return (
     <section className="relative min-h-screen flex justify-center items-center bg-gradient-to-r from-blue-100 via-purple-50 to-indigo-100 py-5 md:py-24 overflow-hidden">
       {/* Background Image */}
@@ -29,7 +34,7 @@ export default function HeroSection() {
             Innovating for Sustainable Cities and Communities
           </p>
           <div className="mt-6 flex justify-center md:justify-start gap-4">
-            <Link href="/" target="_blank">
+            <Link href="#" onClick={notify} >
               <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
                 Register Now
               </button>
@@ -69,6 +74,7 @@ export default function HeroSection() {
           <HeroCarousel />
         </div>
       </div>
+      <ToastContainer  theme="dark" position="bottom-center" />
     </section>
   );
 }

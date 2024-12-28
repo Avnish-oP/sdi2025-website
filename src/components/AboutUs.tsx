@@ -1,4 +1,7 @@
+"use client"
 import Link from "next/link";
+import { toast, ToastContainer } from "react-toastify";
+
 
 export default function AboutUs() {
   return (
@@ -43,7 +46,7 @@ export default function AboutUs() {
                   View Problem Statements
                 </button>
               </Link>
-              <Link href="/" target="_blank">
+              <Link href="/" onClick={() => toast("Registration will be open soon")}>
                 <button className="px-6 py-3 bg-white text-gray-800 font-bold rounded-lg shadow-md border border-gray-300 hover:bg-gray-200 transition">
                   Register Now
                 </button>
@@ -52,6 +55,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
+      <ToastContainer theme="dark" position="bottom-center" />
     </section>
   );
 }

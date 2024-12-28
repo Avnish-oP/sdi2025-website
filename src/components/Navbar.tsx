@@ -41,7 +41,7 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
-            {["Home", "About", "Themes", "Problem Statements", "Contact Us"].map(
+            {["Home", "About", "Themes","Submission Guidelines", "Problem Statements","FAQs", "Contact Us"].map(
               (item) => (
                 <Link
                   key={item}
