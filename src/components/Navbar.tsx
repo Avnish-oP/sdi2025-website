@@ -45,7 +45,7 @@ export default function Navbar() {
               (item) => (
                 <Link
                   key={item}
-                  href={item==="Contact Us"?"/contact": item === "Problem Statements"?"/problem-statements": item === "Home"?"/":`/#${item.toLowerCase().replace(" ", "-")}`}
+                  href={item == "Submission Guidelines"? "/guidlines":item == "FAQs"? "/faqs":item==="Contact Us"?"/contact": item === "Problem Statements"?"/problem-statements": item === "Home"?"/":`/#${item.toLowerCase().replace(" ", "-")}`}
                   className="relative text-gray-700 font-medium hover:text-indigo-600 transition duration-300 group"
                 >
                   {item}
@@ -92,11 +92,11 @@ export default function Navbar() {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden mt- flex flex-col gap-2 space-y-4 pb-10">
-            {["Home", "About", "Themes", "Problem Statements", "Contact Us"].map(
+            {["Home", "About", "Themes","Submission Guidelines", "Problem Statements","FAQs", "Contact Us"].map(
               (item) => (
                 <Link
                   key={item}
-                  href={item==="Contact Us"?"/contact": item === "Problem Statements"?"/problem-statements": item === "Home"?"/":`#${item.toLowerCase().replace(" ", "-")}`}
+                  href={item == "Submission Guidelines"? "/guidlines":item == "FAQs"? "/faqs":item==="Contact Us"?"/contact": item === "Problem Statements"?"/problem-statements": item === "Home"?"/":`/#${item.toLowerCase().replace(" ", "-")}`}
                   className=" text-gray-700 hover:text-indigo-600 hover:bg-gray-100 px-4 py-2 rounded transition duration-200"
                 >
                  <span className="absolute h-[2px] text-nowrap w-0 bg-indigo-600 hover-glow transition-all duration-300 group-hover:w-full">{item}</span> 
