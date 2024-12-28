@@ -71,6 +71,13 @@ const ProblemStatements = () => {
                 >
                   Download PDF
                 </a>
+                <a
+                  href={`https://register.sdi2025.in/${id}`}
+                  download
+                  className="px-6 py-3 bg-gray-100 border text-gray-800 font-bold rounded-lg shadow-md hover:bg-gray-300 transition"
+                >
+                  Register Now
+                </a>
                 </div>
               </div>
               <div className="right md:w-1/5 flex items-center justify-between py-2 md:justify-end">
