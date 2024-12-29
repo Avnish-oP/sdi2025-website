@@ -13,7 +13,7 @@ const ContactUs = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          Get in Touch with Us
+          Get in Touch with us
         </motion.h1>
         <motion.p
           className="text-center text-xl mb-10 max-w-2xl mx-auto"
@@ -34,7 +34,7 @@ const ContactUs = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1 }}
           >
-            <h2 className="text-3xl antialiased text-center  mb-4">Contact Us</h2>
+            <h2 className="text-3xl antialiased text-center  mb-4">Contact us</h2>
             <ContactForm />
           </motion.div>
 
@@ -47,16 +47,16 @@ const ContactUs = () => {
           >
             <h2 className="text-3xl  mb-4">Contact Information</h2>
             <p className="mb-4">
-              <strong>Address:</strong> USDI, GGSIPU-EDC, Surajmal vihar, Delhi
+              <strong>Address:</strong>GGSIPU - East Delhi Campus, Surajmal Vihar, Delhi
             </p>
             <p className="mb-4">
-              <strong>SPOC:</strong> Dr Nikhilesh Sharma
+              <strong>SPOC:</strong> Dr. Nikhilesh Sharma
             </p>
             <p className="mb-4">
               <strong>Phone:</strong> 9560434006
             </p>
             <p className="mb-4">
-              <strong>Email:</strong> Sdi2025@ipu.ac.in
+              <strong>Email:</strong> sdi2025@ipu.ac.in
             </p>
           </motion.div>
         </div>

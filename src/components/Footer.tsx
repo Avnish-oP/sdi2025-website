@@ -46,7 +46,7 @@ const Footer = () => {
                   href="/contact"
                   className="text-gray-300 hover:text-white transition"
                 >
-                  Contact Us
+                  Contact us
                 </a>
               </li>
             </ul>
@@ -75,7 +75,7 @@ const Footer = () => {
               </div>
               <div className="flex flex-col items-center justify-center pb-2">
                 <img
-                  src="/images/IDEA.png"
+                  src="/images/IDEA1.png"
                   alt="Partner 2"
                   className=" h-16 w-16 mb-2 object-cover rounded-full"
                 />
@@ -113,7 +113,7 @@ const Footer = () => {
                 href="mailto:sdi2025@ipu.ac.in"
                 className="text-gray-300 hover:text-white transition"
               >
-                Sdi2025@ipu.ac.in
+                sdi2025@ipu.ac.in
               </a>
             </p>
             <p className="flex items-center gap-2">
