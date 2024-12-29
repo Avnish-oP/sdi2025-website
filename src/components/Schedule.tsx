@@ -44,7 +44,7 @@ export function HackathonTimeline() {
               </h1>
               <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
                 
-                <Link className="underline text-blue-600" href={`https://register.sdi2025.in/`} target="_blank">Online Submission of Ideas </Link>
+                <Link className="underline text-blue-600" href={`https://register.sdi2025.in/`} target="_blank">Online Submission of Ideas</Link>
               </p>
               <div className="">
                 <img
