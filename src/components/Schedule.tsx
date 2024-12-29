@@ -58,7 +58,7 @@ export function HackathonTimeline() {
               <div className="flex flex-col md:flex-row gap-4">
                 <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
                   <span className="text-indigo-600 text-xl">Venue:</span> Hosted on the
-                  GGSIP University Competition Portal (Link)
+                  GGSIP University Competition Portal
                 </p>
               </div>
                 <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
