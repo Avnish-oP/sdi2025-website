@@ -65,6 +65,10 @@ export default function HeroSection() {
                 <span className="text-lg font-semibold text-gray-700">🥉Third Prize</span>
                 <span className="text-xl font-bold text-indigo-900">₹1,00,000</span>
               </div>
+              <div className="flex justify-between items-center font">
+                <span className="text-lg font-semibold text-gray-700"><i>'Certificate of Participation' to all students and 'Certificate of Appreciation' to students who qualify Online Round</i></span>
+                {/* <span className="text-xl font-bold text-indigo-900">₹1,00,000</span> */}
+              </div>
               
             </div>
           </div>

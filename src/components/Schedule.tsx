@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
+import Link from 'next/link';
 
 export function HackathonTimeline() {
     const data = [
@@ -12,7 +13,7 @@ export function HackathonTimeline() {
                 Inauguration Ceremony
               </h1>
               <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
-                Digital Inauguration by Hon&apos;ble Chancellor, GGSIPU, Delhi
+                Digital Launch by Hon&apos;ble Chancellor, GGSIPU, Delhi
               </p>
               <div className="">
                 <img
@@ -42,7 +43,8 @@ export function HackathonTimeline() {
                 Stage 1: Online Round
               </h1>
               <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
-                Online Submission of Ideas
+                
+                <Link className="underline text-blue-600" href={`https://register.sdi2025.in/`} target="_blank">Online Submission of Ideas </Link>
               </p>
               <div className="">
                 <img
@@ -60,13 +62,13 @@ export function HackathonTimeline() {
                 </p>
               </div>
                 <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
-                  <span className="text-indigo-600 text-xl">Result Date:</span> Jan 23, 2025
+                  <span className="text-indigo-600 text-xl font-bold">Result Date:</span> <b>Jan 23, 2025</b>
                 </p>
             </div>
           ),
         },
         {
-          title: "Jan 24, 2025- 31st Jan, 2025",
+          title: "Jan 24 - 30, 2025",
           content: (
             <div>
               <h1 className="text-indigo-600 text-lg md:text-3xl font-bold antialiased mb-8">
@@ -94,11 +96,11 @@ export function HackathonTimeline() {
           ),
         },
         {
-          title: "Feb 1, 2025",
+          title: "Jan 31, 2025 (Friday)",
           content: (
             <div>
               <h1 className="text-indigo-600 text-lg md:text-3xl font-bold antialiased mb-8">
-               Stage 3: Physical Evaluation for shortlisted ideas
+               Stage 3: Physical Evaluation for Shortlisted Ideas
               </h1>
               <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
                 In-person through PPT
@@ -131,7 +133,7 @@ export function HackathonTimeline() {
           ),
         },
         {
-          title: "Feb 4, 2025",
+          title: "Feb 4, 2025 (Tuesday)",
           content: (
             <div>
               <h1 className="text-indigo-600 text-lg md:text-3xl font-bold antialiased mb-8">

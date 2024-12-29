@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-7 gap-8">
           {/* About Section */}
           <div className="col-span-2">
-            <h3 className="text-xl font-bold mb-4">Smart Delhi Ideathon</h3>
+            <h3 className="text-xl font-bold mb-4">Smart Delhi Ideathon 2025</h3>
             <p className="text-gray-300 text-sm leading-6">
               Reinventing Delhi with tech and creativity. Address urban
               governance challenges through innovation, collaboration, and

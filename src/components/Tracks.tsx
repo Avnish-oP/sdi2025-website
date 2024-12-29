@@ -269,7 +269,7 @@ const Tracks = () => {
   return (
     <div className="slider-container overflow-hidden py-16 md:py-20 bg-gradient-to-r from-purple-100 to-pink-200 md:p-10 mx-auto">
       <h2 className="text-4xl text-center font-bold text-indigo-800 mb-2 animate__animated animate__fadeIn">
-        Hackathon Themes
+        Ideathon Themes
       </h2>
       <p className="text-gray-600 text-center text-lg px-5 pb-10 pt-5 animate__animated animate__fadeIn animate__delay-1s">
         Explore the diverse themes designed to address Delhi’s pressing urban
@@ -292,7 +292,7 @@ const Tracks = () => {
 
 
       <div className="pspage text-center mt-20">
-        <Link href="/problem-statements" className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">View All PS</Link>
+        <Link href="/problem-statements" className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">View All Problem Statements</Link>
       </div>
     </div>
   );

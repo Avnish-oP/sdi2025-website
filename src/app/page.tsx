@@ -5,6 +5,7 @@ import { HackathonTimeline } from "@/components/Schedule";
 import WhySDISection from "@/components/Why";
 // import Committee from "@/components/Committee";
 import Tracks from "@/components/Tracks";
+import Sponsors from "@/components/Sponsors";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Tracks />
     </div>
     <div id="schedule"><HackathonTimeline /></div>
+    <Sponsors />
     <WhySDISection />
     </>
   );

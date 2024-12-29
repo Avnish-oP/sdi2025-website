@@ -78,3 +78,9 @@ button {
       1px 1px 0 #000;
 
 }
+
+.bg-pattern {
+  background-image: url('/path-to-pattern.svg'); /* Replace with your pattern */
+  background-repeat: repeat;
+  background-size: 150px;
+}

@@ -46,7 +46,7 @@ export default function Navbar() {
                 <Link
                   key={item}
                   href={item == "Submission Guidelines"? "/guidelines":item == "FAQs"? "/faqs":item==="Contact Us"?"/contact": item === "Problem Statements"?"/problem-statements": item === "Home"?"/":`/#${item.toLowerCase().replace(" ", "-")}`}
-                  className="relative text-gray-700 font-medium hover:text-indigo-600 transition duration-300 group"
+                  className="relative font-bold text-gray-700 hover:text-indigo-600 transition duration-300 group"
                 >
                   {item}
                   {/* Hover underline animation */}
@@ -97,7 +97,7 @@ export default function Navbar() {
                 <Link
                   key={item}
                   href={item == "Submission Guidelines"? "/guidelines":item == "FAQs"? "/faqs":item==="Contact Us"?"/contact": item === "Problem Statements"?"/problem-statements": item === "Home"?"/":`/#${item.toLowerCase().replace(" ", "-")}`}
-                  className=" text-gray-700 hover:text-indigo-600 hover:bg-gray-100 px-4 py-2 rounded transition duration-200"
+                  className=" text-gray-700 font-bold hover:text-indigo-600 hover:bg-gray-100 px-4 py-2 rounded transition duration-200"
                 >
                   <span className="absolute h-[2px] text-nowrap w-0 bg-indigo-600 hover-glow transition-all duration-300 group-hover:w-full">{item}</span>
                 </Link>
