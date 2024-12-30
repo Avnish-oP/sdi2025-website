@@ -1,6 +1,7 @@
 export default function Sponsors() {
   const sponsors = [
     { src: "images/sponsors/Blusmart.png", alt: "Bluesmart Logo" },
+    { src: "images/sponsors/DTIDCL.png", alt: "DTTDC Logo" },
     { src: "images/sponsors/DMRC.png", alt: "DMRC Logo" },
     // { src: "images/sponsors/DTTDC.png", alt: "DTTDC Logo" },
   ];
