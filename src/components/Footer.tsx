@@ -1,4 +1,38 @@
+'use client'
+import { useEffect, useState } from 'react';
+
+interface ApiResponse {
+  id: number;
+  name: string;
+  count: number;
+  created_at: string;
+  updated_at: string;
+  namespace_id: number;
+  namespace: {
+    id: number;
+    name: string;
+    created_at: string;
+    updated_at: string;
+  };
+}
+
 const Footer = () => {
+  const [data, setData] = useState<ApiResponse | null>(null); // Explicitly type state
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await fetch('https://api.counterapi.dev/v1/sdi/2025/up'); // API endpoint
+        const result: ApiResponse = await response.json(); // Type the API response
+        setData(result);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    }
+
+    fetchData();
+  }, []);
+
   return (
     <footer className="bg-gradient-to-t from-indigo-900 via-indigo-800 to-indigo-700 text-white">
       <div className="max-w-[90%] mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -125,20 +159,33 @@ const Footer = () => {
                 +91 9560434006
               </a>
             </p>
-            
+
           </div>
 
 
         </div>
-          <hr className="border-indigo-500 my-8" />
-          {/* Footer Bottom */}
-          <div className="flex flex-col md:flex-row items-center justify-center text-gray-400 text-sm">
-            <p>
-              © {new Date().getFullYear()} Smart Delhi Ideathon. All Rights
-              Reserved.
-            </p>
-            
-          </div>
+        <hr className="border-indigo-500 my-8" />
+        <div>
+              {/* {data ? (
+                <pre>{JSON.stringify(data, null, 2)}</pre>
+              ) : (
+                <p>Count is Loading...</p>
+              )} */}
+
+              {/* Display visit count */}
+              <p className="py-2 text-lg text-center">
+                This site has been visited <b>{data ? data.count : '...'}</b> times.
+              </p>
+            </div>
+        <hr className="border-indigo-500 my-8" />
+        {/* Footer Bottom */}
+        <div className="flex flex-col md:flex-row items-center justify-center text-gray-400 text-sm">
+          <p>
+            © {new Date().getFullYear()} Smart Delhi Ideathon. All Rights
+            Reserved.
+          </p>
+
+        </div>
       </div>
     </footer>
   );
