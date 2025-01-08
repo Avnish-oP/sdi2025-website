@@ -14,7 +14,7 @@ const faqs = [
   { question: "Why is AI emphasized in the challenge?", answer: "AI and emerging technologies can enhance governance by improving efficiency, transparency, and accountability." },
   { question: "How does this challenge promote collaboration?", answer: "The event fosters collaboration among policymakers, technologists, academia, and students to address systemic issues collectively." },
   { question: "Who can participate in the challenge?", answer: "Students from universities and colleges ranked under the NIRF 2024 framework and located within Delhi (NCT) are eligible." },
-  { question: "How many entries can an institution submit per theme?", answer: "Each institution can submit a maximum of two entries per theme, finalized through an internal screening process." },
+  // { question: "How many entries can an institution submit per theme?", answer: "Each institution can submit a maximum of two entries per theme, finalized through an internal screening process." },
   { question: "How are submissions made?", answer: "All submissions must be uploaded by the institution’s designated Single Point of Contact (SPOC) via the official competition portal." },
   { question: "How many members are allowed in a team?", answer: "Each team must consist of three to five members, all from the same college." },
   { question: "What are the themes for the challenge?", answer: "The themes focus on addressing Delhi&apos;s urban challenges: Traffic Management, Zero Waste, Cleaner Air, Water Efficiency, and Women’s Safety." },
