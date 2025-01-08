@@ -26,6 +26,9 @@ const faqs = [
   { question: "Who will judge the submissions in Stage 2? ", answer: "The Stage 2 jury will include policymakers, domain experts, and academicians who will provide a comprehensive evaluation of the solutions"},
   { question: "Who will be part of the Grand Finale jury?", answer: "The Grand Finale will feature an esteemed jury, chaired by the Hon’ble Lieutenant Governor of NCT of Delhi, alongside experts from top universities, technocrats, urban planners, and specialists from niche domains."},
   { question: "What are the key evaluation criteria for the challenge?", answer: "Submissions will be evaluated based on five key criteria. Firstly, solutions must address relevant issues within Delhi’s urban landscape, focusing on significant challenges. Proposals should be innovative, offering novel and scalable ideas that move beyond conventional approaches. Feasibility is essential, with ideas needing to align with the city’s resources and policies for practical implementation. Impact is another crucial factor, with solutions required to produce measurable, positive outcomes in governance. Finally, submissions should build upon or enhance existing government initiatives to maximize their effectiveness."},
+  { question: "How many entries can be sent from a single institute?", answer: "There is no limit on number of entries from an institution."},
+  { question: "How many entries can be applied by a single team?", answer: "Only one entry in each theme is accepted per team."},
+  // { question: "", answer: ""},
 ];
 
 export default function FAQs() {
