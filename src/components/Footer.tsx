@@ -133,6 +133,14 @@ const Footer = () => {
                 />
                 <p className="text-xs">IEEE GGSIPU</p>
               </div>
+              <div className="flex flex-col items-center justify-center pb-2">
+                <img
+                  src="/images/aic.png"
+                  alt="Partner 2"
+                  className=" h-16 w-16 mb-2 rounded-full"
+                />
+                <p className="text-xs">AIC GGSIPU</p>
+              </div>
             </div>
 
             {/* Contact and Socials */}
