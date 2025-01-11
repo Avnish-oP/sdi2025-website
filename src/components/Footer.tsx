@@ -2,20 +2,20 @@
 // import { useEffect, useState } from 'react';
 import VisitorCounter from "@/components/VisitorCounter"
 
-interface ApiResponse {
-  id: number;
-  name: string;
-  count: number;
-  created_at: string;
-  updated_at: string;
-  namespace_id: number;
-  namespace: {
-    id: number;
-    name: string;
-    created_at: string;
-    updated_at: string;
-  };
-}
+// interface ApiResponse {
+//   id: number;
+//   name: string;
+//   count: number;
+//   created_at: string;
+//   updated_at: string;
+//   namespace_id: number;
+//   namespace: {
+//     id: number;
+//     name: string;
+//     created_at: string;
+//     updated_at: string;
+//   };
+// }
 
 const Footer = () => {
   // const [data, setData] = useState<ApiResponse | null>(null); // Explicitly type state
