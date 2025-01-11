@@ -1,5 +1,6 @@
 'use client'
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
+import VisitorCounter from "@/components/VisitorCounter"
 
 interface ApiResponse {
   id: number;
@@ -17,21 +18,21 @@ interface ApiResponse {
 }
 
 const Footer = () => {
-  const [data, setData] = useState<ApiResponse | null>(null); // Explicitly type state
+  // const [data, setData] = useState<ApiResponse | null>(null); // Explicitly type state
 
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await fetch('https://api.counterapi.dev/v1/sdi/2025/up'); // API endpoint
-        const result: ApiResponse = await response.json(); // Type the API response
-        setData(result);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    }
+  // useEffect(() => {
+  //   async function fetchData() {
+  //     try {
+  //       const response = await fetch('https://api.counterapi.dev/v1/sdi/2025/up'); // API endpoint
+  //       const result: ApiResponse = await response.json(); // Type the API response
+  //       setData(result);
+  //     } catch (error) {
+  //       console.error('Error fetching data:', error);
+  //     }
+  //   }
 
-    fetchData();
-  }, []);
+  //   fetchData();
+  // }, []);
 
   return (
     <footer className="bg-gradient-to-t from-indigo-900 via-indigo-800 to-indigo-700 text-white">
@@ -173,9 +174,10 @@ const Footer = () => {
               )} */}
 
               {/* Display visit count */}
-              <p className="py-2 text-lg text-center">
-                This site has been visited <b>{data ? data.count : '...'}</b> times.
-              </p>
+              <div className="py-2 text-lg text-center">
+                {/* This site has been visited <b>{data ? data.count : '...'}</b> times. */}
+                <VisitorCounter />
+              </div>
             </div>
         <hr className="border-indigo-500 my-8" />
         {/* Footer Bottom */}
