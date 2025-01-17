@@ -36,7 +36,7 @@ export function HackathonTimeline() {
           ),
         },
         {
-          title: "Dec 28, 2024 - Jan 18, 2025",
+          title: "Dec 28, 2024 - Jan 21, 2025",
           content: (
             <div>
               <h1 className="text-indigo-600 text-lg md:text-3xl font-bold antialiased mb-8">
@@ -46,6 +46,8 @@ export function HackathonTimeline() {
                 
                 <Link className="underline text-blue-600" href={`https://register.sdi2025.in/`} target="_blank">Online Submission of Ideas </Link>
               </p>
+              <p className="text-neutral-800 text-sm md:text-lg font-normal pb-6"><s className="text-red-500"><strong>Submission Deadline:</strong> 18 January 2025, 11:59 PM</s></p>
+              <p className="text-neutral-800 text-sm md:text-lg font-normal pb-6"><strong>Extended Submission Deadline:</strong> 21 January 2025, 11:59 PM</p>
               <div className="">
                 <img
                   src="/images/online_round.jpg"

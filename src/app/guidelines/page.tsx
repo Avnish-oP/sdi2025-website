@@ -279,7 +279,10 @@ export default function Guidelines() {
         {/* Submission Deadline */}
         <div className="mt-8 p-4 bg-indigo-100 text-indigo-800 font-semibold rounded-lg">
           <p>
-            <strong>Submission Deadline:</strong> 18 January 2025, 11:59 PM
+          <s className="text-red-500">Submission Deadline: 18 January 2025, 11:59 PM</s>
+          </p>
+          <p>
+          <strong>Extended Submission Deadline:</strong> 21 January 2025, 11:59 PM
           </p>
           <p>
             Upload your pitch video link and concept note at:{" "}
