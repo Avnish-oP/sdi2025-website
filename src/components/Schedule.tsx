@@ -63,14 +63,17 @@ export function HackathonTimeline() {
                   GGSIP University Competition Portal
                 </p>
               </div>
+                <p className="text-red-600 text-sm md:text-lg font-bold mt-4">
+                  <s>Result Date: Jan 23, 2025</s>
+                </p>
                 <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
-                  <span className="text-indigo-600 text-xl font-bold">Result Date:</span> <b>Jan 23, 2025</b>
+                  <span className="text-indigo-600 text-xl font-bold">Result Date (Extended):</span> <b>Jan 27, 2025</b>
                 </p>
             </div>
           ),
         },
         {
-          title: "Jan 24 - 30, 2025",
+          title: "Jan 28 - 30, 2025",
           content: (
             <div>
               <h1 className="text-indigo-600 text-lg md:text-3xl font-bold antialiased mb-8">
