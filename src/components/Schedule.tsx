@@ -87,7 +87,7 @@ export function HackathonTimeline() {
             Stage 2: Mentor&apos;s Handholding
           </h1>
           <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
-            In-person/Online
+            Online
           </p>
           <div className="4">
             <img
@@ -100,7 +100,7 @@ export function HackathonTimeline() {
           </div>
           <div className="flex flex-col md:flex-row gap-4">
             <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
-              <span className="text-indigo-600 text-xl">Venue: </span> Auditorium, GGSIP university,  East delhi campus,  Surajmal Vihar
+              <span className="text-indigo-600 text-xl">Venue: </span> Online on demand
             </p>
           </div>
 
@@ -115,7 +115,7 @@ export function HackathonTimeline() {
             Stage 3: Physical Evaluation for Shortlisted Ideas
           </h1>
           <p className="text-neutral-800 text-sm md:text-lg font-normal mb-8">
-            In-person through PPT
+            In-person through PPT/Software/Hardware (demo)
           </p>
           <div className="">
             <img
@@ -165,12 +165,20 @@ export function HackathonTimeline() {
           </div>
           <div className="flex flex-col md:flex-row gap-4">
             <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
-              <span className="text-indigo-600 text-xl">Venue:</span> Auditorium, GGSIP University,  East Delhi Campus,  Surajmal Vihar, Delhi
+              <span className="text-indigo-600 text-xl">Venue:</span> Vigyan Bhawan, Maulana Azad Rd, Rajpath Area, Central Secretariat, New Delhi, Delhi 110011
             </p>
           </div>
           <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
-            <span className="text-indigo-600 text-xl">Time:</span> 10:00 AM - 05:00 PM
+            <span className="text-indigo-600 text-xl">Time:</span> 09:30 AM - 05:00 PM
           </p>
+          <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
+            <a href="https://g.co/kgs/df1Y5KQ" target="_blank">
+              <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
+                Navigate me
+              </button>
+            </a>
+          </p>
+
         </div>
       ),
     },
