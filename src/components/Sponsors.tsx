@@ -3,6 +3,7 @@ export default function Sponsors() {
     { src: "images/sponsors/Blusmart.png", alt: "Bluesmart Logo" },
     { src: "images/sponsors/DTIDCL.png", alt: "DTTDC Logo" },
     { src: "images/sponsors/DMRC.png", alt: "DMRC Logo" },
+    { src: "images/sponsors/meta.jpg", alt: "Meta Logo" },
     // { src: "images/sponsors/DTTDC.png", alt: "DTTDC Logo" },
   ];
 
@@ -31,11 +32,11 @@ type SponsorLogoProps = {
 
 function SponsorLogo({ src, alt }: SponsorLogoProps) {
   return (
-    <div className="flex justify-center items-center h-40 w-80 bg-white shadow-md border-2 border-indigo-200 rounded-lg hover:shadow-xl hover:border-indigo-300 transition transform hover:scale-105 ease-in-out duration-300">
+    <div className="flex justify-center items-center h-40 w-[21rem] bg-white shadow-md border-2 border-indigo-200 rounded-lg hover:shadow-xl hover:border-indigo-300 transition transform hover:scale-105 ease-in-out duration-300">
       <img
         src={src}
         alt={alt}
-        className="h-auto max-h-44 w-auto object-contain transition-transform transform hover:scale-110 ease-in-out duration-300"
+        className="h-auto max-h-40 w-auto object-contain transition-transform transform hover:scale-110 ease-in-out duration-300"
       />
     </div>
   );
