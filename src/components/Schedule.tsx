@@ -131,6 +131,14 @@ export function HackathonTimeline() {
               <span className="text-indigo-600 text-xl">Venue: </span> Auditorium, GGSIP University,  East Delhi Campus,  Surajmal Vihar, Delhi
             </p>
           </div>
+
+          <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
+            <Link href="results/selected-for-GrandFinale-4Feb.pdf" target="_blank">
+              <button className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-md hover:bg-indigo-700 transition">
+                Checkout the Results
+              </button>
+            </Link>
+          </p>
           {/* <p className="text-neutral-800 text-sm md:text-lg font-normal mt-4">
                   <span className="text-indigo-600 text-xl">Jury:</span> Five eminent juries
                 </p>
